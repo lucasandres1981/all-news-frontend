@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ALL NEWS - The All News Studio</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
+
+    </head>
+    
+    <body>
+        <header>
+            <div class="container">
+                <div class="top-buttons">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>         
+                    <nav>
+                        <ul>
+                            <li>  
+                                <a href="http://www.google.com">Últimas noticias</a>
+                            </li>
+                            <li>
+                                <a href="http://www.google.com">Politica</a>
+                            </li>    
+                            <li>    
+                                <a href="http://www.google.com">Sociedad</a>
+                            </li>
+                            <li>                        
+                                <a href="http://www.google.com">Economica</a>
+                            </li>
+                            <li>
+                                <a href="http://www.google.com">Tecnologia</a>
+                            </li>
+                            <li>
+                                <a href="http://www.google.com">Sports</a>
+                            </li>
+                            <li>
+                                <a href="http://www.google.com">Tendencias</a>
+                            </li>
+                            <li>
+                                <a href="http://www.google.com">Cultura</a>
+                            </li>
+                            <li>
+                                <a href="http://www.google.com">¿Qué puedo ver?</a>
+                            </li>                   
+                        <ul>       
+                    </nav>
+                </div>
+                <div class="logo">
+                    <img src="img/logo.png" alt="Logo all news" />
+                </div>
+                <div class="mid-buttons">
+                    <ul>
+                        <li>
+                            <a href="#">AMÉRICA</a>
+                        </li>
+                        <li>
+                            <a href="#">COLOMBIA</a>
+                        </li>
+                        <li>
+                            <a href="#">MEXICO</a>
+                        </li>
+                        <li>
+                            <a href="#">QUÉ PUEDO VER</a>
+                        </li>
+                        <li>
+                            <a href="#">ECONÓMIA</a>
+                        </li>
+                        <li>
+                            <a href="#">TELESHOW</a>
+                        </li>
+                        <li>
+                            <a href="#">DEPORTES</a>
+                        </li>
+                        <li> 
+                            <a href="#">CULTURA</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="today-date">
+                    <div class="line"></div>
+                    <div class="date">Lunes xx de junio de 20xx</div>
+                    <div class="line"></div>
+                </div>
+                <div class="lower-buttons">
+                    <ul>
+                        <li class="first-button">
+                            <a href="#">Últimas notcias</a>
+                        </li>
+                        <li>
+                            <a href="#">Confesiones</a>
+                        </li>
+                        <li>
+                            <a href="#">Salud</a>
+                        </li>
+                        <li>
+                            <a href="#">Tendencias</a>
+                        </li>
+                        <li>
+                            <a href="#">ESPN</a>
+                        </li>
+                        <li>
+                            <a href="#">newsletter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>     
+        </header>
+        <main>
+            <section class="admin-news-form container">
+              <h1>AGREGAR NOTICIA</h1>
+              <p class="admin-subtitle">Crea y publica contenido para el portal de noticias</p>
+          
+              <!-- Campo Título -->
+              <input type="text" placeholder="Título de la noticia" class="title-input" required>
+          
+              <!-- Subida de Imagen -->
+              <div class="dropzone" id="dropzone">
+                <p>Arrastra y suelta la imagen aquí o haz clic para seleccionar</p>
+                <input type="file" accept="image/*" id="imageUpload">
+              </div>
+          
+              <!-- Editor de Texto -->
+              <div class="text-editor">
+                <div class="toolbar">
+                  <button type="button" onclick="format('bold')"><b>B</b></button>
+                  <button type="button" onclick="format('italic')"><i>I</i></button>
+                  <button type="button" onclick="format('underline')"><u>U</u></button>
+                  <button type="button" onclick="format('insertUnorderedList')">• Lista</button>
+                </div>
+                <div class="editor" contenteditable="true" id="editor">
+                  Escribe aquí el contenido de la noticia...
+                </div>
+              </div>
+          
+              <!-- Botón Publicar -->
+              <button class="btn-publicar">Publicar noticia</button>
+            </section>
+          </main>
+          
+        <footer>
+            <div class="topbar">
+                <img img src="img/logo.png" alt="cansado"/>
+                <div class="rrss">
+                    <a href="#">
+                        <i class ="fab fa-facebook-square"></i>                       
+                    </a>
+                    <a href="#">
+                        <i class ="fab fa-twitter"></i>                       
+                    </a>
+                    <a href="#">
+                        <i class ="fab fa-instagram"></i>                       
+                    </a>
+                    <a href="#">
+                        <i class ="fas fa-rss"></i>                       
+                    </a>
+                    <a href="#">
+                        <i class ="fab fa-youtube"></i>                       
+                    </a>         
+                </div>
+            </div>
+            <div class="sitemap">
+                <div class="col">
+                    <ul>                  
+                        <li>
+                            <span>all news</span>
+                        </li>
+                        <li>
+                            <a href="#">Colombia</a>
+                        </li>
+                        <li>
+                            <a href="#">America</a>
+                        </li>
+                        <li>
+                            <a href="#">Argentina</a>
+                        </li>
+                        <li>
+                            <a href="#">Mexico</a>
+                        </li>
+                        <li>
+                            <a href="#">Perú</a>
+                        </li>
+                        <li>
+                            <a href="#">RSS</a>
+                        </li>
+                        <li>
+                            <a href="#">Ultima noticias</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>                  
+                        <li>
+                            <span>Contáctenos</span>
+                        </li>
+                        <li>
+                            <a href="#">Contacto</a>
+                        </li>
+                        <li>
+                            <a href="#">Redacción</a>
+                        </li>
+                        <li>
+                            <a href="#">Contacto comercial</a>
+                        </li>
+                        <li>
+                            <a href="#">Media Kit</a>
+                        </li>
+                        <li>
+                            <a href="#">Empleo</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>                  
+                        <li>
+                            <span>Redes Sociales</span>
+                        </li>
+                        <li>
+                            <a href="#">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>                  
+                        <li>
+                            <span>Contáctenos</span>
+                        </li>
+                        <li>
+                            <a href="#">Términos y condiciones</a>
+                        </li>
+                        <li>
+                            <a href="#">Politicas de privacidad</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="copyright">
+                Todos los Derechos Reservados © all news 2023
+            </div>
+            
+        </footer>
+        
+    </body>
+</html>
