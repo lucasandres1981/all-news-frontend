@@ -1,253 +1,192 @@
 <!DOCTYPE html>
+<!-- Declaración del tipo de documento HTML5 -->
 <html>
     <head>
+        <!-- Título que aparece en la pestaña del navegador -->
         <title>REGISTRO - ALL NEWS - The All News Studio</title>
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
 
+        <!-- Enlace a la hoja de estilos externa -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Inclusión de librería de íconos Font Awesome -->
+        <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
     </head>
     
     <body>
+        <!-- Encabezado principal -->
         <header>
             <div class="container">
+                <!-- Parte superior con botones de menú y búsqueda -->
                 <div class="top-buttons">
                     <i class="fa-solid fa-bars"></i>
-                    <i class="fa-solid fa-magnifying-glass"></i>         
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <!-- Menú de navegación principal -->
                     <nav>
                         <ul>
-                            <li>  
-                                <a href="http://www.google.com">Últimas noticias</a>
-                            </li>
-                            <li>
-                                <a href="http://www.google.com">Politica</a>
-                            </li>    
-                            <li>    
-                                <a href="http://www.google.com">Sociedad</a>
-                            </li>
-                            <li>                        
-                                <a href="http://www.google.com">Economica</a>
-                            </li>
-                            <li>
-                                <a href="http://www.google.com">Tecnologia</a>
-                            </li>
-                            <li>
-                                <a href="http://www.google.com">Sports</a>
-                            </li>
-                            <li>
-                                <a href="http://www.google.com">Tendencias</a>
-                            </li>
-                            <li>
-                                <a href="http://www.google.com">Cultura</a>
-                            </li>
-                            <li>
-                                <a href="http://www.google.com">¿Qué puedo ver?</a>
-                            </li>                   
-                        <ul>       
+                            <!-- Enlaces a secciones temáticas del sitio -->
+                            <li><a href="http://www.google.com">Últimas noticias</a></li>
+                            <li><a href="http://www.google.com">Politica</a></li>
+                            <li><a href="http://www.google.com">Sociedad</a></li>
+                            <li><a href="http://www.google.com">Economica</a></li>
+                            <li><a href="http://www.google.com">Tecnologia</a></li>
+                            <li><a href="http://www.google.com">Sports</a></li>
+                            <li><a href="http://www.google.com">Tendencias</a></li>
+                            <li><a href="http://www.google.com">Cultura</a></li>
+                            <li><a href="http://www.google.com">¿Qué puedo ver?</a></li>
+                        <ul> <!-- ⚠️ Error: Falta cierre correcto </ul> -->
                     </nav>
                 </div>
+
+                <!-- Logo de la plataforma -->
                 <div class="logo">
                     <img src="img/logo.png" alt="Logo all news" />
                 </div>
+
+                <!-- Menú medio con categorías -->
                 <div class="mid-buttons">
                     <ul>
-                        <li>
-                            <a href="#">AMÉRICA</a>
-                        </li>
-                        <li>
-                            <a href="#">COLOMBIA</a>
-                        </li>
-                        <li>
-                            <a href="#">MEXICO</a>
-                        </li>
-                        <li>
-                            <a href="#">QUÉ PUEDO VER</a>
-                        </li>
-                        <li>
-                            <a href="#">ECONÓMIA</a>
-                        </li>
-                        <li>
-                            <a href="#">TELESHOW</a>
-                        </li>
-                        <li>
-                            <a href="#">DEPORTES</a>
-                        </li>
-                        <li> 
-                            <a href="#">CULTURA</a>
-                        </li>
+                        <li><a href="#">AMÉRICA</a></li>
+                        <li><a href="#">COLOMBIA</a></li>
+                        <li><a href="#">MEXICO</a></li>
+                        <li><a href="#">QUÉ PUEDO VER</a></li>
+                        <li><a href="#">ECONÓMIA</a></li>
+                        <li><a href="#">TELESHOW</a></li>
+                        <li><a href="#">DEPORTES</a></li>
+                        <li><a href="#">CULTURA</a></li>
                     </ul>
                 </div>
+
+                <!-- Fecha del día -->
                 <div class="today-date">
                     <div class="line"></div>
                     <div class="date">Lunes xx de junio de 20xx</div>
                     <div class="line"></div>
                 </div>
+
+                <!-- Menú inferior adicional -->
                 <div class="lower-buttons">
                     <ul>
-                        <li class="first-button">
-                            <a href="#">Últimas notcias</a>
-                        </li>
-                        <li>
-                            <a href="#">Confesiones</a>
-                        </li>
-                        <li>
-                            <a href="#">Salud</a>
-                        </li>
-                        <li>
-                            <a href="#">Tendencias</a>
-                        </li>
-                        <li>
-                            <a href="#">ESPN</a>
-                        </li>
-                        <li>
-                            <a href="#">newsletter</a>
-                        </li>
+                        <li class="first-button"><a href="#">Últimas notcias</a></li>
+                        <li><a href="#">Confesiones</a></li>
+                        <li><a href="#">Salud</a></li>
+                        <li><a href="#">Tendencias</a></li>
+                        <li><a href="#">ESPN</a></li>
+                        <li><a href="#">newsletter</a></li>
                     </ul>
                 </div>
             </div>     
         </header>
+
+        <!-- Sección principal de contenido -->
         <main>
             <div class="container">
-              <div class="form-register-box">
-                <h1>REGISTRARME</h1>
-                <p>De manera gratuita y accede a nuestros contenidos exclusivos</p>
-          
-                <form class="form-register" action="registro.php" method="POST">
-                  <input type="email" name="email" placeholder="Email" required>
-                  <input type="text" name="nombre" placeholder="Nombre" required>
-                  <input type="text" name="apellido" placeholder="Apellido" required>
-          
-                  <input type="text" name="pais" placeholder="País de Residencia" required>
-          
-                  <select name="genero" required>
-                    <option value="">Género</option>
-                    <option value="masculino">Masculino</option>
-                    <option value="femenino">Femenino</option>
-                    <option value="otro">Otro</option>
-                  </select>
-          
-                  <input type="date" name="fecha_nacimiento" required>
-          
-                  <input type="password" name="password" placeholder="Contraseña" required>
-                  <input type="password" name="confirm_password" placeholder="Confirmar contraseña" required>
-          
-                  <div class="terms-container">
-                    <input type="checkbox" name="terminos" required>
-                    <label for="terminos">Acepto términos y condiciones</label>
-                  </div>
-          
-                  <button type="submit">Continuar</button>
-                </form>
-              </div>
+                <!-- Caja del formulario de registro -->
+                <div class="form-register-box">
+                    <h1>REGISTRARME</h1>
+                    <p>De manera gratuita y accede a nuestros contenidos exclusivos</p>
+
+                    <!-- Formulario de registro que envía los datos a registro.php -->
+                    <form class="form-register" action="registro.php" method="POST">
+                        <!-- Campo para el correo electrónico -->
+                        <input type="email" name="email" placeholder="Email" required>
+
+                        <!-- Campos para nombre y apellido -->
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                        <input type="text" name="apellido" placeholder="Apellido" required>
+
+                        <!-- Campo de país -->
+                        <input type="text" name="pais" placeholder="País de Residencia" required>
+
+                        <!-- Selector de género con opciones -->
+                        <select name="genero" required>
+                            <option value="">Género</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="femenino">Femenino</option>
+                            <option value="otro">Otro</option>
+                        </select>
+
+                        <!-- Campo para fecha de nacimiento -->
+                        <input type="date" name="fecha_nacimiento" required>
+
+                        <!-- Contraseña y confirmación -->
+                        <input type="password" name="password" placeholder="Contraseña" required>
+                        <input type="password" name="confirm_password" placeholder="Confirmar contraseña" required>
+
+                        <!-- Casilla de aceptación de términos -->
+                        <div class="terms-container">
+                            <input type="checkbox" name="terminos" required>
+                            <label for="terminos">Acepto términos y condiciones</label>
+                        </div>
+
+                        <!-- Botón para enviar el formulario -->
+                        <button type="submit">Continuar</button>
+                    </form>
+                </div>
             </div>
-          </main>        
+        </main>
+
+        <!-- Pie de página -->
         <footer>
             <div class="topbar">
-                <img img src="img/logo.png" alt="cansado"/>
+                <!-- Logo del footer -->
+                <img src="img/logo.png" alt="Logo all news" />
+
+                <!-- Enlaces a redes sociales -->
                 <div class="rrss">
-                    <a href="#">
-                        <i class ="fab fa-facebook-square"></i>                       
-                    </a>
-                    <a href="#">
-                        <i class ="fab fa-twitter"></i>                       
-                    </a>
-                    <a href="#">
-                        <i class ="fab fa-instagram"></i>                       
-                    </a>
-                    <a href="#">
-                        <i class ="fas fa-rss"></i>                       
-                    </a>
-                    <a href="#">
-                        <i class ="fab fa-youtube"></i>                       
-                    </a>         
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fas fa-rss"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
+
+            <!-- Mapa del sitio dividido por categorías -->
             <div class="sitemap">
                 <div class="col">
-                    <ul>                  
-                        <li>
-                            <span>all news</span>
-                        </li>
-                        <li>
-                            <a href="#">Colombia</a>
-                        </li>
-                        <li>
-                            <a href="#">America</a>
-                        </li>
-                        <li>
-                            <a href="#">Argentina</a>
-                        </li>
-                        <li>
-                            <a href="#">Mexico</a>
-                        </li>
-                        <li>
-                            <a href="#">Perú</a>
-                        </li>
-                        <li>
-                            <a href="#">RSS</a>
-                        </li>
-                        <li>
-                            <a href="#">Ultima noticias</a>
-                        </li>
+                    <ul>
+                        <li><span>all news</span></li>
+                        <li><a href="#">Colombia</a></li>
+                        <li><a href="#">America</a></li>
+                        <li><a href="#">Argentina</a></li>
+                        <li><a href="#">Mexico</a></li>
+                        <li><a href="#">Perú</a></li>
+                        <li><a href="#">RSS</a></li>
+                        <li><a href="#">Ultima noticias</a></li>
                     </ul>
                 </div>
                 <div class="col">
-                    <ul>                  
-                        <li>
-                            <span>Contáctenos</span>
-                        </li>
-                        <li>
-                            <a href="#">Contacto</a>
-                        </li>
-                        <li>
-                            <a href="#">Redacción</a>
-                        </li>
-                        <li>
-                            <a href="#">Contacto comercial</a>
-                        </li>
-                        <li>
-                            <a href="#">Media Kit</a>
-                        </li>
-                        <li>
-                            <a href="#">Empleo</a>
-                        </li>
+                    <ul>
+                        <li><span>Contáctenos</span></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Redacción</a></li>
+                        <li><a href="#">Contacto comercial</a></li>
+                        <li><a href="#">Media Kit</a></li>
+                        <li><a href="#">Empleo</a></li>
                     </ul>
                 </div>
                 <div class="col">
-                    <ul>                  
-                        <li>
-                            <span>Redes Sociales</span>
-                        </li>
-                        <li>
-                            <a href="#">Facebook</a>
-                        </li>
-                        <li>
-                            <a href="#">Twitter</a>
-                        </li>
-                        <li>
-                            <a href="#">Instagram</a>
-                        </li>
+                    <ul>
+                        <li><span>Redes Sociales</span></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
                     </ul>
                 </div>
                 <div class="col">
-                    <ul>                  
-                        <li>
-                            <span>Contáctenos</span>
-                        </li>
-                        <li>
-                            <a href="#">Términos y condiciones</a>
-                        </li>
-                        <li>
-                            <a href="#">Politicas de privacidad</a>
-                        </li>
+                    <ul>
+                        <li><span>Contáctenos</span></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Politicas de privacidad</a></li>
                     </ul>
                 </div>
-                
             </div>
+
+            <!-- Derechos de autor -->
             <div class="copyright">
                 Todos los Derechos Reservados © all news 2023
             </div>
-            
         </footer>
-        
     </body>
 </html>

@@ -1,237 +1,180 @@
 <!DOCTYPE html>
+<!-- Declaración del tipo de documento: HTML5 -->
 <html>
     <head>
+        <!-- Título de la página que aparece en la pestaña del navegador -->
         <title>ALL NEWS - The All News Studio</title>
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
 
+        <!-- Enlace al archivo de estilos CSS externo -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Enlace al kit de Font Awesome para íconos -->
+        <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
     </head>
     
     <body>
+        <!-- Encabezado de la página -->
         <header>
             <div class="container">
+                <!-- Sección superior con íconos de menú y búsqueda -->
                 <div class="top-buttons">
                     <i class="fa-solid fa-bars"></i>
-                    <i class="fa-solid fa-magnifying-glass"></i>         
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <!-- Menú de navegación principal -->
                     <nav>
                         <ul>
-                            <li>  
-                                <a href="http://www.google.com">Últimas noticias</a>
-                            </li>
-                            <li>
-                                <a href="http://www.google.com">Politica</a>
-                            </li>    
-                            <li>    
-                                <a href="http://www.google.com">Sociedad</a>
-                            </li>
-                            <li>                        
-                                <a href="http://www.google.com">Economica</a>
-                            </li>
-                            <li>
-                                <a href="http://www.google.com">Tecnologia</a>
-                            </li>
-                            <li>
-                                <a href="http://www.google.com">Sports</a>
-                            </li>
-                            <li>
-                                <a href="http://www.google.com">Tendencias</a>
-                            </li>
-                            <li>
-                                <a href="http://www.google.com">Cultura</a>
-                            </li>
-                            <li>
-                                <a href="http://www.google.com">¿Qué puedo ver?</a>
-                            </li>                   
-                        <ul>       
+                            <!-- Enlaces a secciones de noticias -->
+                            <li><a href="http://www.google.com">Últimas noticias</a></li>
+                            <li><a href="http://www.google.com">Politica</a></li>
+                            <li><a href="http://www.google.com">Sociedad</a></li>
+                            <li><a href="http://www.google.com">Economica</a></li>
+                            <li><a href="http://www.google.com">Tecnologia</a></li>
+                            <li><a href="http://www.google.com">Sports</a></li>
+                            <li><a href="http://www.google.com">Tendencias</a></li>
+                            <li><a href="http://www.google.com">Cultura</a></li>
+                            <li><a href="http://www.google.com">¿Qué puedo ver?</a></li>
+                        <ul> <!-- Cierre incorrecto: debería ser </ul> -->
                     </nav>
                 </div>
+
+                <!-- Logo principal del sitio -->
                 <div class="logo">
                     <img src="img/logo.png" alt="Logo all news" />
                 </div>
+
+                <!-- Menú de navegación secundaria con otras secciones -->
                 <div class="mid-buttons">
                     <ul>
-                        <li>
-                            <a href="#">AMÉRICA</a>
-                        </li>
-                        <li>
-                            <a href="#">COLOMBIA</a>
-                        </li>
-                        <li>
-                            <a href="#">MEXICO</a>
-                        </li>
-                        <li>
-                            <a href="#">QUÉ PUEDO VER</a>
-                        </li>
-                        <li>
-                            <a href="#">ECONÓMIA</a>
-                        </li>
-                        <li>
-                            <a href="#">TELESHOW</a>
-                        </li>
-                        <li>
-                            <a href="#">DEPORTES</a>
-                        </li>
-                        <li> 
-                            <a href="#">CULTURA</a>
-                        </li>
+                        <li><a href="#">AMÉRICA</a></li>
+                        <li><a href="#">COLOMBIA</a></li>
+                        <li><a href="#">MEXICO</a></li>
+                        <li><a href="#">QUÉ PUEDO VER</a></li>
+                        <li><a href="#">ECONÓMIA</a></li>
+                        <li><a href="#">TELESHOW</a></li>
+                        <li><a href="#">DEPORTES</a></li>
+                        <li><a href="#">CULTURA</a></li>
                     </ul>
                 </div>
+
+                <!-- Fecha actual -->
                 <div class="today-date">
                     <div class="line"></div>
                     <div class="date">Lunes xx de junio de 20xx</div>
                     <div class="line"></div>
                 </div>
+
+                <!-- Menú inferior adicional con enlaces -->
                 <div class="lower-buttons">
                     <ul>
-                        <li class="first-button">
-                            <a href="#">Últimas notcias</a>
-                        </li>
-                        <li>
-                            <a href="#">Confesiones</a>
-                        </li>
-                        <li>
-                            <a href="#">Salud</a>
-                        </li>
-                        <li>
-                            <a href="#">Tendencias</a>
-                        </li>
-                        <li>
-                            <a href="#">ESPN</a>
-                        </li>
-                        <li>
-                            <a href="#">newsletter</a>
-                        </li>
+                        <li class="first-button"><a href="#">Últimas notcias</a></li>
+                        <li><a href="#">Confesiones</a></li>
+                        <li><a href="#">Salud</a></li>
+                        <li><a href="#">Tendencias</a></li>
+                        <li><a href="#">ESPN</a></li>
+                        <li><a href="#">newsletter</a></li>
                     </ul>
                 </div>
-            </div>     
+            </div>
         </header>
+
+        <!-- Contenido principal: formulario de inicio de sesión -->
         <main>
             <div class="container">
-              <div class="form-login-box">
-                <h1>Iniciar Sesión</h1>
-                <form class="form-login" action="login.php" method="POST">
-                  <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
-                  <input type="password" id="password" name="password" placeholder="Contraseña" required>
-          
-                  <button type="submit">Ingresar</button>
-          
-                  <div class="login-links">
-                    <a href="#">¿Olvidaste tu contraseña?</a>
-                    <br>
-                    <a href="registro.html">¿No tienes cuenta? Regístrate aquí</a>
-                  </div>
-                </form>
-              </div>
+                <!-- Caja del formulario -->
+                <div class="form-login-box">
+                    <h1>Iniciar Sesión</h1>
+                    
+                    <!-- Formulario de login con método POST hacia login.php -->
+                    <form class="form-login" action="login.php" method="POST">
+                        <!-- Campo para ingresar correo electrónico -->
+                        <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+
+                        <!-- Campo para ingresar contraseña -->
+                        <input type="password" id="password" name="password" placeholder="Contraseña" required>
+
+                        <!-- Botón de envío del formulario -->
+                        <button type="submit">Ingresar</button>
+
+                        <!-- Enlaces secundarios -->
+                        <div class="login-links">
+                            <a href="#">¿Olvidaste tu contraseña?</a>
+                            <br>
+                            <a href="registro.html">¿No tienes cuenta? Regístrate aquí</a>
+                        </div>
+                    </form>
+                </div>
             </div>
-          </main>
+        </main>
+
+        <!-- Pie de página con redes sociales y enlaces de navegación -->
         <footer>
             <div class="topbar">
-                <img img src="img/logo.png" alt="cansado"/>
-                <div class="rrss">
-                    <a href="#">
-                        <i class ="fab fa-facebook-square"></i>                       
-                    </a>
-                    <a href="#">
-                        <i class ="fab fa-twitter"></i>                       
-                    </a>
-                    <a href="#">
-                        <i class ="fab fa-instagram"></i>                       
-                    </a>
-                    <a href="#">
-                        <i class ="fas fa-rss"></i>                       
-                    </a>
-                    <a href="#">
-                        <i class ="fab fa-youtube"></i>                       
-                    </a>         
-                </div>
-            </div>
-            <div class="sitemap">
-                <div class="col">
-                    <ul>                  
-                        <li>
-                            <span>all news</span>
-                        </li>
-                        <li>
-                            <a href="#">Colombia</a>
-                        </li>
-                        <li>
-                            <a href="#">America</a>
-                        </li>
-                        <li>
-                            <a href="#">Argentina</a>
-                        </li>
-                        <li>
-                            <a href="#">Mexico</a>
-                        </li>
-                        <li>
-                            <a href="#">Perú</a>
-                        </li>
-                        <li>
-                            <a href="#">RSS</a>
-                        </li>
-                        <li>
-                            <a href="#">Ultima noticias</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>                  
-                        <li>
-                            <span>Contáctenos</span>
-                        </li>
-                        <li>
-                            <a href="#">Contacto</a>
-                        </li>
-                        <li>
-                            <a href="#">Redacción</a>
-                        </li>
-                        <li>
-                            <a href="#">Contacto comercial</a>
-                        </li>
-                        <li>
-                            <a href="#">Media Kit</a>
-                        </li>
-                        <li>
-                            <a href="#">Empleo</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>                  
-                        <li>
-                            <span>Redes Sociales</span>
-                        </li>
-                        <li>
-                            <a href="#">Facebook</a>
-                        </li>
-                        <li>
-                            <a href="#">Twitter</a>
-                        </li>
-                        <li>
-                            <a href="#">Instagram</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>                  
-                        <li>
-                            <span>Contáctenos</span>
-                        </li>
-                        <li>
-                            <a href="#">Términos y condiciones</a>
-                        </li>
-                        <li>
-                            <a href="#">Politicas de privacidad</a>
-                        </li>
-                    </ul>
-                </div>
+                <!-- Logo en el pie de página -->
+                <img src="img/logo.png" alt="Logo All News"/>
                 
+                <!-- Íconos de redes sociales -->
+                <div class="rrss">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fas fa-rss"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
             </div>
+
+            <!-- Mapa del sitio dividido en cuatro columnas -->
+            <div class="sitemap">
+                <!-- Primera columna -->
+                <div class="col">
+                    <ul>
+                        <li><span>all news</span></li>
+                        <li><a href="#">Colombia</a></li>
+                        <li><a href="#">America</a></li>
+                        <li><a href="#">Argentina</a></li>
+                        <li><a href="#">Mexico</a></li>
+                        <li><a href="#">Perú</a></li>
+                        <li><a href="#">RSS</a></li>
+                        <li><a href="#">Ultima noticias</a></li>
+                    </ul>
+                </div>
+
+                <!-- Segunda columna -->
+                <div class="col">
+                    <ul>
+                        <li><span>Contáctenos</span></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Redacción</a></li>
+                        <li><a href="#">Contacto comercial</a></li>
+                        <li><a href="#">Media Kit</a></li>
+                        <li><a href="#">Empleo</a></li>
+                    </ul>
+                </div>
+
+                <!-- Tercera columna -->
+                <div class="col">
+                    <ul>
+                        <li><span>Redes Sociales</span></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+
+                <!-- Cuarta columna -->
+                <div class="col">
+                    <ul>
+                        <li><span>Contáctenos</span></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Politicas de privacidad</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Información de copyright -->
             <div class="copyright">
                 Todos los Derechos Reservados © all news 2023
             </div>
-            
         </footer>
-        
     </body>
 </html>
