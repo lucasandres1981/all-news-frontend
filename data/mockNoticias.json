@@ -1,0 +1,360 @@
+[
+    {
+      "id": 1,
+      "titulo": "Avances en inteligencia artificial sorprenden al mundo",
+      "resumen": "Una nueva IA es capaz de escribir poesía con sentimiento humano.",
+      "imagen": "https://picsum.photos/seed/ia1/400/300",
+      "categoria": "tecnologia"
+    },
+    {
+      "id": 2,
+      "titulo": "El dólar baja y la economía colombiana se estabiliza",
+      "resumen": "Expertos aseguran que la inflación podría disminuir en los próximos meses.",
+      "imagen": "https://picsum.photos/seed/economia2/400/300",
+      "categoria": "economia"
+    },
+    {
+      "id": 3,
+      "titulo": "Colombia gana medalla de oro en atletismo",
+      "resumen": "El atleta nacional rompe récord en los 100 metros planos.",
+      "imagen": "https://picsum.photos/seed/deportes3/400/300",
+      "categoria": "deportes"
+    },
+    {
+        "id": 4,
+        "titulo": "El cambio climático afecta la biodiversidad en Colombia",
+        "resumen": "Investigadores alertan sobre la pérdida de especies endémicas.",
+        "imagen": "https://picsum.photos/seed/medioambiente4/400/300",
+        "categoria": "medioambiente"
+    },
+    {
+        "id": 5,
+        "titulo": "La música colombiana conquista el mundo",
+        "resumen": "Artistas nacionales logran reconocimiento internacional.",
+
+        "imagen": "https://picsum.photos/seed/musica5/400/300",
+        "categoria": "cultura"
+    },
+    {
+        "id": 6,
+        "titulo": "Colombia y su lucha contra la corrupción",
+        "resumen": "Nuevas leyes buscan fortalecer la transparencia en el gobierno.",
+        "imagen": "https://picsum.photos/seed/corrupcion6/400/300",
+        "categoria": "politica"
+    },
+    {
+        "id": 7,
+        "titulo": "El auge del teletrabajo en Colombia",
+        "resumen": "Más empresas adoptan modelos híbridos tras la pandemia.",
+        "imagen": "https://picsum.photos/seed/teletrabajo7/400/300",
+        "categoria": "tecnologia"
+    },
+    {
+        "id": 8,
+        "titulo": "Colombia se prepara para las elecciones presidenciales",
+        "resumen": "Los candidatos comienzan a hacer campaña en todo el país.",
+        "imagen": "https://picsum.photos/seed/elecciones8/400/300",
+        "categoria": "politica"
+    },    
+    {
+        "id": 9,
+        "titulo": "El café colombiano, un tesoro nacional",
+        "resumen": "La producción de café sigue siendo un pilar de la economía.",
+        "imagen": "https://picsum.photos/seed/cafe9/400/300",
+        "categoria": "economia"
+    },
+    {
+        "id": 10,
+        "titulo": "Colombia celebra el Día de la Independencia",
+        "resumen": "Desfiles y festividades marcan la conmemoración del 20 de julio.",
+        "imagen": "https://picsum.photos/seed/independencia10/400/300",
+        "categoria": "cultura"
+    },
+    {
+        "id": 11,
+        "titulo": "El fútbol colombiano en la Copa América",
+        "resumen": "La selección nacional avanza a las semifinales del torneo.",
+        "imagen": "https://picsum.photos/seed/futbol11/400/300",
+        "categoria": "deportes"
+    },
+    {
+        "id": 12,
+        "titulo": "Colombia y su biodiversidad única",
+        "resumen": "El país alberga el 10% de la biodiversidad mundial.",
+        "imagen": "https://picsum.photos/seed/biodiversidad12/400/300",
+        "categoria": "medioambiente"
+    },
+    {
+        "id": 13,
+        "titulo": "El arte urbano en Colombia",
+        "resumen": "Los murales cuentan historias de resistencia y esperanza.",
+        "imagen": "https://picsum.photos/seed/arteurbano13/400/300",
+        "categoria": "cultura"
+    },
+    {
+        "id": 14,
+        "titulo": "Colombia y su compromiso con la paz",
+        "resumen": "El país avanza en la implementación del acuerdo de paz.",
+        "imagen": "https://picsum.photos/seed/paz14/400/300",
+        "categoria": "politica"
+    },
+    {
+        "id": 15,
+        "titulo": "El crecimiento del turismo en Colombia",
+        "resumen": "Más turistas internacionales visitan el país cada año.",
+        "imagen": "https://picsum.photos/seed/turismo15/400/300",
+        "categoria": "economia"
+    },
+    {
+        "id": 16,
+        "titulo": "Colombia y su diversidad cultural",
+        "resumen": "El país celebra sus tradiciones y costumbres únicas.",
+        "imagen": "https://picsum.photos/seed/culturadiversa16/400/300",
+        "categoria": "cultura"
+    },
+    
+    {
+        "id": 17,
+        "titulo": "El impacto de la minería en Colombia",
+        "resumen": "Expertos debaten sobre los beneficios y riesgos de la minería.",
+        "imagen": "https://picsum.photos/seed/mineria17/400/300",
+        "categoria": "medioambiente"
+    },
+    {
+        "id": 18,
+        "titulo": "Colombia y su lucha contra el narcotráfico",
+        "resumen": "El gobierno implementa nuevas estrategias para combatir el crimen organizado.",
+        "imagen": "https://picsum.photos/seed/narcotrafico18/400/300",
+        "categoria": "politica"
+    },
+    {
+        "id": 19,
+        "titulo": "El auge de la gastronomía colombiana",
+        "resumen": "Los chefs colombianos ganan reconocimiento internacional.",
+        "imagen": "https://picsum.photos/seed/gastronomia19/400/300",
+        "categoria": "cultura"
+    },
+    {
+        "id": 20,
+        "titulo": "Colombia y su compromiso con la educación",
+        "resumen": "El gobierno invierte en programas educativos para jóvenes.",
+        "imagen": "https://picsum.photos/seed/educacion20/400/300",
+        "categoria": "politica"
+    },
+    
+    {
+        "id": 21,
+        "titulo": "El crecimiento del e-commerce en Colombia",
+        "resumen": "Las ventas en línea aumentan significativamente.",
+        "imagen": "https://picsum.photos/seed/ecommerce21/400/300",
+        "categoria": "economia"
+    },
+    {
+        "id": 22,
+        "titulo": "Colombia y su biodiversidad marina",
+        "resumen": "El país protege sus ecosistemas marinos únicos.",
+        "imagen": "https://picsum.photos/seed/biodiversidadmarina22/400/300",
+        "categoria": "medioambiente"
+    },
+    {
+        "id": 23,
+        "titulo": "El impacto del COVID-19 en la salud mental",
+        "resumen": "Expertos advierten sobre el aumento de problemas de salud mental.",
+        "imagen": "https://picsum.photos/seed/covid19salud23/400/300",
+        "categoria": "salud"
+    },
+    {
+        "id": 24,
+        "titulo": "Colombia y su compromiso con los derechos humanos",
+        "resumen": "El país avanza en la protección de los derechos fundamentales.",
+        "imagen": "https://picsum.photos/seed/derechoshumanos24/400/300",
+        "categoria": "politica"
+    },
+    
+    {
+        "id": 25,
+        "titulo": "El auge de la música urbana en Colombia",
+        "resumen": "Artistas colombianos dominan las listas de popularidad.",
+        "imagen": "https://picsum.photos/seed/musicaurbana25/400/300",
+        "categoria": "cultura"
+    },
+    {
+        "id": 26,
+        "titulo": "Colombia y su compromiso con la sostenibilidad",
+        "resumen": "El país implementa políticas para proteger el medio ambiente.",
+        "imagen": "https://picsum.photos/seed/sostenibilidad26/400/300",
+        "categoria": "medioambiente"
+    },
+    {
+        "id": 27,
+        "titulo": "El impacto de la tecnología en la educación",
+        "resumen": "Las plataformas digitales transforman el aprendizaje en Colombia.",
+        "imagen": "https://picsum.photos/seed/tecnologiaeducacion27/400/300",
+        "categoria": "tecnologia"
+    },
+    {
+        "id": 28,
+        "titulo": "Colombia y su compromiso con la igualdad de género",
+        "resumen": "El país avanza en la lucha por los derechos de las mujeres.",
+        "imagen": "https://picsum.photos/seed/igualdadgenero28/400/300",
+        "categoria": "politica"
+    },
+    {
+        "id": 29,
+        "titulo": "El crecimiento del sector agrícola en Colombia",
+        "resumen": "La producción agrícola se convierte en un pilar de la economía.",
+        "imagen": "https://picsum.photos/seed/agricultura29/400/300",
+        "categoria": "economia"
+    },
+    {
+        "id": 30,
+        "titulo": "Colombia y su diversidad étnica",
+        "resumen": "El país celebra sus raíces indígenas y afrodescendientes.",
+        "imagen": "https://picsum.photos/seed/diversidadetnica30/400/300",
+        "categoria": "cultura"
+    },
+    
+    {
+        "id": 31,
+        "titulo": "El impacto del cambio climático en la agricultura",
+        "resumen": "Los agricultores enfrentan nuevos desafíos debido al clima.",
+        "imagen": "https://picsum.photos/seed/cambioclimaticoagricultura31/400/300",
+        "categoria": "medioambiente"
+    },
+    {
+        "id": 32,
+        "titulo": "Colombia y su compromiso con la salud pública",
+        "resumen": "El país invierte en programas de salud para todos.",
+        "imagen": "https://picsum.photos/seed/saludpublica32/400/300",
+        "categoria": "salud"
+    },
+    {
+        "id": 33,
+        "titulo": "El auge del emprendimiento en Colombia",
+        "resumen": "Más jóvenes inician sus propios negocios.",
+        "imagen": "https://picsum.photos/seed/emprendimiento33/400/300",
+        "categoria": "economia"
+    },
+    {
+        "id": 34,
+        "titulo": "Colombia y su compromiso con la paz",
+        "resumen": "El país avanza en la implementación del acuerdo de paz.",
+        "imagen": "https://picsum.photos/seed/paz34/400/300",
+        "categoria": "politica"
+    },
+    
+    {
+        "id": 35,
+        "titulo": "El impacto de la tecnología en la salud",
+        "resumen": "Las innovaciones tecnológicas mejoran la atención médica.",
+        "imagen": "https://picsum.photos/seed/tecnologiasalud35/400/300",
+        "categoria": "salud"
+    },
+    {
+        "id": 36,
+        "titulo": "Colombia y su compromiso con la educación",
+        "resumen": "El país invierte en programas educativos para jóvenes.",
+        "imagen": "https://picsum.photos/seed/educacion36/400/300",
+        "categoria": "educacion"
+    },
+    {
+        "id": 37,
+        "titulo": "El crecimiento del sector tecnológico en Colombia",
+        "resumen": "Las startups colombianas atraen inversiones internacionales.",
+        "imagen": "https://picsum.photos/seed/sectortecnologico37/400/300",
+        "categoria": "tecnologia"
+    },
+    {
+        "id": 38,
+        "titulo": "Colombia y su compromiso con la sostenibilidad",
+        "resumen": "El país implementa políticas para proteger el medio ambiente.",
+        "imagen": "https://picsum.photos/seed/sostenibilidad38/400/300",
+        "categoria": "medioambiente"
+    },
+    
+    {
+        "id": 39,
+        "titulo": "El impacto de la pandemia en la salud mental",
+        "resumen": "Expertos advierten sobre el aumento de problemas de salud mental.",
+        "imagen": "https://picsum.photos/seed/pandemiasalud39/400/300",
+        "categoria": "salud"
+    },
+    {
+        "id": 40,
+        "titulo": "Colombia y su compromiso con la igualdad de género",
+        "resumen": "El país avanza en la lucha por los derechos de las mujeres.",
+        "imagen": "https://picsum.photos/seed/igualdadgenero40/400/300",
+        "categoria": "politica"
+    },
+    {
+        "id": 41,
+        "titulo": "El crecimiento del sector turístico en Colombia",
+        "resumen": "Más turistas internacionales visitan el país cada año.",
+        "imagen": "https://picsum.photos/seed/turismo41/400/300",
+        "categoria": "economia"
+    },
+    {
+        "id": 42,
+        "titulo": "Colombia y su diversidad cultural",
+        "resumen": "El país celebra sus tradiciones y costumbres únicas.",
+        "imagen": "https://picsum.photos/seed/culturadiversa42/400/300",
+        "categoria": "cultura"
+    },
+    {
+        "id": 43,
+        "titulo": "El impacto de la minería en Colombia",
+        "resumen": "Expertos debaten sobre los beneficios y riesgos de la minería.",
+        "imagen": "https://picsum.photos/seed/mineria43/400/300",
+        "categoria": "medioambiente"
+    },
+    {
+        "id": 44,
+        "titulo": "Colombia y su compromiso con los derechos humanos",
+        "resumen": "El país avanza en la protección de los derechos fundamentales.",
+        "imagen": "https://picsum.photos/seed/derechoshumanos44/400/300",
+        "categoria": "politica"
+    },
+    {
+        "id": 45,
+        "titulo": "El auge de la música colombiana",
+        "resumen": "Artistas nacionales logran reconocimiento internacional.",
+        "imagen": "https://picsum.photos/seed/musica45/400/300",
+        "categoria": "cultura"
+    },
+    {
+        "id": 46,
+        "titulo": "Colombia y su compromiso con la salud pública",
+        "resumen": "El país invierte en programas de salud para todos.",
+        "imagen": "https://picsum.photos/seed/saludpublica46/400/300",
+        "categoria": "salud"
+    },
+    
+    {
+        "id": 47,
+        "titulo": "El crecimiento del sector agrícola en Colombia",
+        "resumen": "La producción agrícola se convierte en un pilar de la economía.",
+        "imagen": "https://picsum.photos/seed/agricultura47/400/300",
+        "categoria": "economia"
+    },
+    {
+        "id": 48,
+        "titulo": "Colombia y su compromiso con la paz",
+        "resumen": "El país avanza en la implementación del acuerdo de paz.",
+        "imagen": "https://picsum.photos/seed/paz48/400/300",
+        "categoria": "politica"
+    },
+    {
+        "id": 49,
+        "titulo": "El impacto del cambio climático en la agricultura",
+        "resumen": "Los agricultores enfrentan nuevos desafíos debido al clima.",
+        "imagen": "https://picsum.photos/seed/cambioclimaticoagricultura49/400/300",
+        "categoria": "medioambiente"
+    },
+    {
+        "id": 50,
+        "titulo": "Colombia y su compromiso con la educación",
+        "resumen": "El país invierte en programas educativos para jóvenes.",
+        "imagen": "https://picsum.photos/seed/educacion50/400/300",
+        "categoria": "educacion"
+    }
+]

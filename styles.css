@@ -180,7 +180,7 @@ header .lower-buttons ul li a{
 }    
 
 #news-feed .news-block .left-block {
-    flex-basis: 65%; /* Ajusta según necesidades */
+    flex-basis: 65%; /* Ajustar según necesidades */
     /*background-color: aqua;*/
     padding: 20px;
     box-shadow: 0 0 2px gray;
@@ -190,7 +190,7 @@ header .lower-buttons ul li a{
 }
 
 #news-feed .news-block .right-block{
-    flex-basis: 35%; /* Ajusta según necesidades */
+    flex-basis: 35%; /* Ajusta segúnr necesidades */
     /*background-color: lightgreen;*/
     padding: 20px;
     box-shadow: 0 0 2px gray;
@@ -436,6 +436,7 @@ footer .copyright{
 
   .admin-news-form {
     margin-top: 100px;
+    margin-bottom: 100px;
     padding: 20px;
     border: 1px solid #ccc;
     background: #fff;
@@ -444,15 +445,33 @@ footer .copyright{
     margin-left: auto;
     margin-right: auto;
   }
+
   
+  .admin-news-form h1 {
+    font-family: raleway-Bold, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
   .admin-news-form h2 {
     text-align: center;
     font-family: raleway-Bold, sans-serif;
     margin-bottom: 20px;
   }
+
+  .admin-news-form p {
+    font-family: raleway, sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
   
   .title-input {
-    width: 100%;
+    
+    
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 97%;
     padding: 12px;
     font-size: 16px;
     margin-bottom: 15px;
@@ -516,4 +535,32 @@ footer .copyright{
     cursor: pointer;
     border-radius: 5px;
   }
-  
+/*Styles Sidebar*/  
+
+.right-block aside {
+  padding: 15px;
+  background: #f9f9f9;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.right-block aside h2 {
+  font-family: raleway-Bold, sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.right-block aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.right-block aside ul li {
+  margin: 5px 0;
+}
+
+.right-block aside ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
