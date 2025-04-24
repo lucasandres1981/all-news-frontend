@@ -1,0 +1,954 @@
+[
+  {
+    "id": 1,
+    "titulo": "Avances en inteligencia artificial sorprenden al mundo",
+    "resumen": "Una nueva IA es capaz de escribir poesía con sentimiento humano.",
+    "imagen": "https://picsum.photos/seed/ia1/400/300",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": 2,
+    "titulo": "El dólar baja y la economía colombiana se estabiliza",
+    "resumen": "Expertos aseguran que la inflación podría disminuir en los próximos meses.",
+    "imagen": "https://picsum.photos/seed/economia2/400/300",
+    "categoria": "economia"
+  },
+  {
+    "id": 3,
+    "titulo": "Colombia gana medalla de oro en atletismo",
+    "resumen": "El atleta nacional rompe récord en los 100 metros planos.",
+    "imagen": "https://picsum.photos/seed/deportes3/400/300",
+    "categoria": "deportes"
+  },
+  {
+    "id": 4,
+    "titulo": "El cambio climático afecta la biodiversidad en Colombia",
+    "resumen": "Investigadores alertan sobre la pérdida de especies endémicas.",
+    "imagen": "https://picsum.photos/seed/medioambiente4/400/300",
+    "categoria": "medioambiente"
+  },
+  {
+    "id": 5,
+    "titulo": "La música colombiana conquista el mundo",
+    "resumen": "Artistas nacionales logran reconocimiento internacional.",
+    "imagen": "https://picsum.photos/seed/musica5/400/300",
+    "categoria": "cultura"
+  },
+  {
+    "id": 6,
+    "titulo": "Colombia y su lucha contra la corrupción",
+    "resumen": "Nuevas leyes buscan fortalecer la transparencia en el gobierno.",
+    "imagen": "https://picsum.photos/seed/corrupcion6/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 7,
+    "titulo": "El auge del teletrabajo en Colombia",
+    "resumen": "Más empresas adoptan modelos híbridos tras la pandemia.",
+    "imagen": "https://picsum.photos/seed/teletrabajo7/400/300",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": 8,
+    "titulo": "Colombia se prepara para las elecciones presidenciales",
+    "resumen": "Los candidatos comienzan a hacer campaña en todo el país.",
+    "imagen": "https://picsum.photos/seed/elecciones8/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 9,
+    "titulo": "El café colombiano, un tesoro nacional",
+    "resumen": "La producción de café sigue siendo un pilar de la economía.",
+    "imagen": "https://picsum.photos/seed/cafe9/400/300",
+    "categoria": "economia"
+  },
+  {
+    "id": 10,
+    "titulo": "Colombia celebra el Día de la Independencia",
+    "resumen": "Desfiles y festividades marcan la conmemoración del 20 de julio.",
+    "imagen": "https://picsum.photos/seed/independencia10/400/300",
+    "categoria": "cultura"
+  },
+  {
+    "id": 11,
+    "titulo": "El fútbol colombiano en la Copa América",
+    "resumen": "La selección nacional avanza a las semifinales del torneo.",
+    "imagen": "https://picsum.photos/seed/futbol11/400/300",
+    "categoria": "deportes"
+  },
+  {
+    "id": 12,
+    "titulo": "Colombia y su biodiversidad única",
+    "resumen": "El país alberga el 10% de la biodiversidad mundial.",
+    "imagen": "https://picsum.photos/seed/biodiversidad12/400/300",
+    "categoria": "medioambiente"
+  },
+  {
+    "id": 13,
+    "titulo": "El arte urbano en Colombia",
+    "resumen": "Los murales cuentan historias de resistencia y esperanza.",
+    "imagen": "https://picsum.photos/seed/arteurbano13/400/300",
+    "categoria": "cultura"
+  },
+  {
+    "id": 14,
+    "titulo": "Colombia y su compromiso con la paz",
+    "resumen": "El país avanza en la implementación del acuerdo de paz.",
+    "imagen": "https://picsum.photos/seed/paz14/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 15,
+    "titulo": "El crecimiento del turismo en Colombia",
+    "resumen": "Más turistas internacionales visitan el país cada año.",
+    "imagen": "https://picsum.photos/seed/turismo15/400/300",
+    "categoria": "economia"
+  },
+  {
+    "id": 16,
+    "titulo": "Colombia y su diversidad cultural",
+    "resumen": "El país celebra sus tradiciones y costumbres únicas.",
+    "imagen": "https://picsum.photos/seed/culturadiversa16/400/300",
+    "categoria": "cultura"
+  },
+  {
+    "id": 17,
+    "titulo": "El impacto de la minería en Colombia",
+    "resumen": "Expertos debaten sobre los beneficios y riesgos de la minería.",
+    "imagen": "https://picsum.photos/seed/mineria17/400/300",
+    "categoria": "medioambiente"
+  },
+  {
+    "id": 18,
+    "titulo": "Colombia y su lucha contra el narcotráfico",
+    "resumen": "El gobierno implementa nuevas estrategias para combatir el crimen organizado.",
+    "imagen": "https://picsum.photos/seed/narcotrafico18/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 19,
+    "titulo": "El auge de la gastronomía colombiana",
+    "resumen": "Los chefs colombianos ganan reconocimiento internacional.",
+    "imagen": "https://picsum.photos/seed/gastronomia19/400/300",
+    "categoria": "cultura"
+  },
+  {
+    "id": 20,
+    "titulo": "Colombia y su compromiso con la educación",
+    "resumen": "El gobierno invierte en programas educativos para jóvenes.",
+    "imagen": "https://picsum.photos/seed/educacion20/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 21,
+    "titulo": "El crecimiento del e-commerce en Colombia",
+    "resumen": "Las ventas en línea aumentan significativamente.",
+    "imagen": "https://picsum.photos/seed/ecommerce21/400/300",
+    "categoria": "economia"
+  },
+  {
+    "id": 22,
+    "titulo": "Colombia y su biodiversidad marina",
+    "resumen": "El país protege sus ecosistemas marinos únicos.",
+    "imagen": "https://picsum.photos/seed/biodiversidadmarina22/400/300",
+    "categoria": "medioambiente"
+  },
+  {
+    "id": 23,
+    "titulo": "El impacto del COVID-19 en la salud mental",
+    "resumen": "Expertos advierten sobre el aumento de problemas de salud mental.",
+    "imagen": "https://picsum.photos/seed/covid19salud23/400/300",
+    "categoria": "salud"
+  },
+  {
+    "id": 24,
+    "titulo": "Colombia y su compromiso con los derechos humanos",
+    "resumen": "El país avanza en la protección de los derechos fundamentales.",
+    "imagen": "https://picsum.photos/seed/derechoshumanos24/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 25,
+    "titulo": "El auge de la música urbana en Colombia",
+    "resumen": "Artistas colombianos dominan las listas de popularidad.",
+    "imagen": "https://picsum.photos/seed/musicaurbana25/400/300",
+    "categoria": "cultura"
+  },
+  {
+    "id": 26,
+    "titulo": "Colombia y su compromiso con la sostenibilidad",
+    "resumen": "El país implementa políticas para proteger el medio ambiente.",
+    "imagen": "https://picsum.photos/seed/sostenibilidad26/400/300",
+    "categoria": "medioambiente"
+  },
+  {
+    "id": 27,
+    "titulo": "El impacto de la tecnología en la educación",
+    "resumen": "Las plataformas digitales transforman el aprendizaje en Colombia.",
+    "imagen": "https://picsum.photos/seed/tecnologiaeducacion27/400/300",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": 28,
+    "titulo": "Colombia y su compromiso con la igualdad de género",
+    "resumen": "El país avanza en la lucha por los derechos de las mujeres.",
+    "imagen": "https://picsum.photos/seed/igualdadgenero28/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 29,
+    "titulo": "El crecimiento del sector agrícola en Colombia",
+    "resumen": "La producción agrícola se convierte en un pilar de la economía.",
+    "imagen": "https://picsum.photos/seed/agricultura29/400/300",
+    "categoria": "economia"
+  },
+  {
+    "id": 30,
+    "titulo": "Colombia y su diversidad étnica",
+    "resumen": "El país celebra sus raíces indígenas y afrodescendientes.",
+    "imagen": "https://picsum.photos/seed/diversidadetnica30/400/300",
+    "categoria": "cultura"
+  },
+  {
+    "id": 31,
+    "titulo": "El impacto del cambio climático en la agricultura",
+    "resumen": "Los agricultores enfrentan nuevos desafíos debido al clima.",
+    "imagen": "https://picsum.photos/seed/cambioclimaticoagricultura31/400/300",
+    "categoria": "medioambiente"
+  },
+  {
+    "id": 32,
+    "titulo": "Colombia y su compromiso con la salud pública",
+    "resumen": "El país invierte en programas de salud para todos.",
+    "imagen": "https://picsum.photos/seed/saludpublica32/400/300",
+    "categoria": "salud"
+  },
+  {
+    "id": 33,
+    "titulo": "El auge del emprendimiento en Colombia",
+    "resumen": "Más jóvenes inician sus propios negocios.",
+    "imagen": "https://picsum.photos/seed/emprendimiento33/400/300",
+    "categoria": "economia"
+  },
+  {
+    "id": 34,
+    "titulo": "Colombia y su compromiso con la paz",
+    "resumen": "El país avanza en la implementación del acuerdo de paz.",
+    "imagen": "https://picsum.photos/seed/paz34/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 35,
+    "titulo": "El impacto de la tecnología en la salud",
+    "resumen": "Las innovaciones tecnológicas mejoran la atención médica.",
+    "imagen": "https://picsum.photos/seed/tecnologiasalud35/400/300",
+    "categoria": "salud"
+  },
+  {
+    "id": 36,
+    "titulo": "Colombia y su compromiso con la educación",
+    "resumen": "El país invierte en programas educativos para jóvenes.",
+    "imagen": "https://picsum.photos/seed/educacion36/400/300",
+    "categoria": "educacion"
+  },
+  {
+    "id": 37,
+    "titulo": "El crecimiento del sector tecnológico en Colombia",
+    "resumen": "Las startups colombianas atraen inversiones internacionales.",
+    "imagen": "https://picsum.photos/seed/sectortecnologico37/400/300",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": 38,
+    "titulo": "Colombia y su compromiso con la sostenibilidad",
+    "resumen": "El país implementa políticas para proteger el medio ambiente.",
+    "imagen": "https://picsum.photos/seed/sostenibilidad38/400/300",
+    "categoria": "medioambiente"
+  },
+  {
+    "id": 39,
+    "titulo": "El impacto de la pandemia en la salud mental",
+    "resumen": "Expertos advierten sobre el aumento de problemas de salud mental.",
+    "imagen": "https://picsum.photos/seed/pandemiasalud39/400/300",
+    "categoria": "salud"
+  },
+  {
+    "id": 40,
+    "titulo": "Colombia y su compromiso con la igualdad de género",
+    "resumen": "El país avanza en la lucha por los derechos de las mujeres.",
+    "imagen": "https://picsum.photos/seed/igualdadgenero40/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 41,
+    "titulo": "El crecimiento del sector turístico en Colombia",
+    "resumen": "Más turistas internacionales visitan el país cada año.",
+    "imagen": "https://picsum.photos/seed/turismo41/400/300",
+    "categoria": "economia"
+  },
+  {
+    "id": 42,
+    "titulo": "Colombia y su diversidad cultural",
+    "resumen": "El país celebra sus tradiciones y costumbres únicas.",
+    "imagen": "https://picsum.photos/seed/culturadiversa42/400/300",
+    "categoria": "cultura"
+  },
+  {
+    "id": 43,
+    "titulo": "El impacto de la minería en Colombia",
+    "resumen": "Expertos debaten sobre los beneficios y riesgos de la minería.",
+    "imagen": "https://picsum.photos/seed/mineria43/400/300",
+    "categoria": "medioambiente"
+  },
+  {
+    "id": 44,
+    "titulo": "Colombia y su compromiso con los derechos humanos",
+    "resumen": "El país avanza en la protección de los derechos fundamentales.",
+    "imagen": "https://picsum.photos/seed/derechoshumanos44/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 45,
+    "titulo": "El auge de la música colombiana",
+    "resumen": "Artistas nacionales logran reconocimiento internacional.",
+    "imagen": "https://picsum.photos/seed/musica45/400/300",
+    "categoria": "cultura"
+  },
+  {
+    "id": 46,
+    "titulo": "Colombia y su compromiso con la salud pública",
+    "resumen": "El país invierte en programas de salud para todos.",
+    "imagen": "https://picsum.photos/seed/saludpublica46/400/300",
+    "categoria": "salud"
+  },
+  {
+    "id": 47,
+    "titulo": "El crecimiento del sector agrícola en Colombia",
+    "resumen": "La producción agrícola se convierte en un pilar de la economía.",
+    "imagen": "https://picsum.photos/seed/agricultura47/400/300",
+    "categoria": "economia"
+  },
+  {
+    "id": 48,
+    "titulo": "Colombia y su compromiso con la paz",
+    "resumen": "El país avanza en la implementación del acuerdo de paz.",
+    "imagen": "https://picsum.photos/seed/paz48/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 49,
+    "titulo": "El impacto del cambio climático en la agricultura",
+    "resumen": "Los agricultores enfrentan nuevos desafíos debido al clima.",
+    "imagen": "https://picsum.photos/seed/cambioclimaticoagricultura49/400/300",
+    "categoria": "medioambiente"
+  },
+  {
+    "id": 50,
+    "titulo": "Colombia y su compromiso con la educación",
+    "resumen": "El país invierte en programas educativos para jóvenes.",
+    "imagen": "https://picsum.photos/seed/educacion50/400/300",
+    "categoria": "educacion"
+  },
+  {
+    "id": 51,
+    "titulo": "El impacto de la tecnología en la salud en América",
+    "resumen": "Las innovaciones tecnológicas mejoran la atención médica.",
+    "imagen": "https://picsum.photos/seed/tecnologiasalud51/400/300",
+    "categoria": "america"
+  },
+  {
+    "id": 52,
+    "titulo": "Colombia y su compromiso con la sostenibilidad",
+    "resumen": "El país implementa políticas para proteger el medio ambiente.",
+    "imagen": "https://picsum.photos/seed/sostenibilidad52/400/300",
+    "categoria": "medioambiente"
+  },
+  {
+    "id": 53,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/america53/400/300",
+    "categoria": "america"
+  },
+  {
+    "id": 54,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/america54/400/300",
+    "categoria": "america"
+  },
+  {
+    "id": 55,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/america55/400/300",
+    "categoria": "america"
+  },
+  {
+    "id": 56,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/america56/400/300",
+    "categoria": "america"
+  },
+  {
+    "id": 57,
+    "titulo": "Argentina lanza plan de innovación educativa",
+    "resumen": "Se fortalece la educación digital en zonas rurales.",
+    "imagen": "https://picsum.photos/seed/argentina57/400/300",
+    "categoria": "argentina"
+  },
+  {
+    "id": 58,
+    "titulo": "Argentina lanza plan de innovación educativa",
+    "resumen": "Se fortalece la educación digital en zonas rurales.",
+    "imagen": "https://picsum.photos/seed/argentina58/400/300",
+    "categoria": "argentina"
+  },
+  {
+    "id": 59,
+    "titulo": "Argentina lanza plan de innovación educativa",
+    "resumen": "Se fortalece la educación digital en zonas rurales.",
+    "imagen": "https://picsum.photos/seed/argentina59/400/300",
+    "categoria": "argentina"
+  },
+  {
+    "id": 60,
+    "titulo": "Argentina lanza plan de innovación educativa",
+    "resumen": "Se fortalece la educación digital en zonas rurales.",
+    "imagen": "https://picsum.photos/seed/argentina60/400/300",
+    "categoria": "argentina"
+  },
+  {
+    "id": 61,
+    "titulo": "Argentina lanza plan de innovación educativa",
+    "resumen": "Se fortalece la educación digital en zonas rurales.",
+    "imagen": "https://picsum.photos/seed/argentina61/400/300",
+    "categoria": "argentina"
+  },
+  {
+    "id": 62,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/colombia62/400/300",
+    "categoria": "colombia"
+  },
+  {
+    "id": 63,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/colombia63/400/300",
+    "categoria": "colombia"
+  },
+  {
+    "id": 64,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/colombia64/400/300",
+    "categoria": "colombia"
+  },
+  {
+    "id": 65,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/colombia65/400/300",
+    "categoria": "colombia"
+  },
+  {
+    "id": 66,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/colombia66/400/300",
+    "categoria": "colombia"
+  },
+  {
+    "id": 67,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/cultura67/400/300",
+    "categoria": "cultura"
+  },
+  {
+    "id": 68,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/cultura68/400/300",
+    "categoria": "cultura"
+  },
+  {
+    "id": 69,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/cultura69/400/300",
+    "categoria": "cultura"
+  },
+  {
+    "id": 70,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/cultura70/400/300",
+    "categoria": "cultura"
+  },
+  {
+    "id": 71,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/cultura71/400/300",
+    "categoria": "cultura"
+  },
+  {
+    "id": 72,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/deportes72/400/300",
+    "categoria": "deportes"
+  },
+  {
+    "id": 73,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/deportes73/400/300",
+    "categoria": "deportes"
+  },
+  {
+    "id": 74,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/deportes74/400/300",
+    "categoria": "deportes"
+  },
+  {
+    "id": 75,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/deportes75/400/300",
+    "categoria": "deportes"
+  },
+  {
+    "id": 76,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/deportes76/400/300",
+    "categoria": "deportes"
+  },
+  {
+    "id": 77,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/economia77/400/300",
+    "categoria": "economia"
+  },
+  {
+    "id": 78,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/economia78/400/300",
+    "categoria": "economia"
+  },
+  {
+    "id": 79,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/economia79/400/300",
+    "categoria": "economia"
+  },
+  {
+    "id": 80,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/economia80/400/300",
+    "categoria": "economia"
+  },
+  {
+    "id": 81,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/economia81/400/300",
+    "categoria": "economia"
+  },
+  {
+    "id": 82,
+    "titulo": "Nueva ley mejora condiciones laborales",
+    "resumen": "Se reducen horas sin disminuir salarios.",
+    "imagen": "https://picsum.photos/seed/empleo82/400/300",
+    "categoria": "empleo"
+  },
+  {
+    "id": 83,
+    "titulo": "Nueva ley mejora condiciones laborales",
+    "resumen": "Se reducen horas sin disminuir salarios.",
+    "imagen": "https://picsum.photos/seed/empleo83/400/300",
+    "categoria": "empleo"
+  },
+  {
+    "id": 84,
+    "titulo": "Nueva ley mejora condiciones laborales",
+    "resumen": "Se reducen horas sin disminuir salarios.",
+    "imagen": "https://picsum.photos/seed/empleo84/400/300",
+    "categoria": "empleo"
+  },
+  {
+    "id": 85,
+    "titulo": "Nueva ley mejora condiciones laborales",
+    "resumen": "Se reducen horas sin disminuir salarios.",
+    "imagen": "https://picsum.photos/seed/empleo85/400/300",
+    "categoria": "empleo"
+  },
+  {
+    "id": 86,
+    "titulo": "Nueva ley mejora condiciones laborales",
+    "resumen": "Se reducen horas sin disminuir salarios.",
+    "imagen": "https://picsum.photos/seed/empleo86/400/300",
+    "categoria": "empleo"
+  },
+  {
+    "id": 87,
+    "titulo": "México impulsa la transición energética",
+    "resumen": "Nuevas inversiones en energía solar.",
+    "imagen": "https://picsum.photos/seed/mexico87/400/300",
+    "categoria": "mexico"
+  },
+  {
+    "id": 88,
+    "titulo": "México impulsa la transición energética",
+    "resumen": "Nuevas inversiones en energía solar.",
+    "imagen": "https://picsum.photos/seed/mexico88/400/300",
+    "categoria": "mexico"
+  },
+  {
+    "id": 89,
+    "titulo": "México impulsa la transición energética",
+    "resumen": "Nuevas inversiones en energía solar.",
+    "imagen": "https://picsum.photos/seed/mexico89/400/300",
+    "categoria": "mexico"
+  },
+  {
+    "id": 90,
+    "titulo": "México impulsa la transición energética",
+    "resumen": "Nuevas inversiones en energía solar.",
+    "imagen": "https://picsum.photos/seed/mexico90/400/300",
+    "categoria": "mexico"
+  },
+  {
+    "id": 91,
+    "titulo": "México impulsa la transición energética",
+    "resumen": "Nuevas inversiones en energía solar.",
+    "imagen": "https://picsum.photos/seed/mexico91/400/300",
+    "categoria": "mexico"
+  },
+  {
+    "id": 92,
+    "titulo": "Perú destaca en exportaciones agrícolas",
+    "resumen": "El aguacate peruano gana terreno internacional.",
+    "imagen": "https://picsum.photos/seed/peru92/400/300",
+    "categoria": "peru"
+  },
+  {
+    "id": 93,
+    "titulo": "Perú destaca en exportaciones agrícolas",
+    "resumen": "El aguacate peruano gana terreno internacional.",
+    "imagen": "https://picsum.photos/seed/peru93/400/300",
+    "categoria": "peru"
+  },
+  {
+    "id": 94,
+    "titulo": "Perú destaca en exportaciones agrícolas",
+    "resumen": "El aguacate peruano gana terreno internacional.",
+    "imagen": "https://picsum.photos/seed/peru94/400/300",
+    "categoria": "peru"
+  },
+  {
+    "id": 95,
+    "titulo": "Perú destaca en exportaciones agrícolas",
+    "resumen": "El aguacate peruano gana terreno internacional.",
+    "imagen": "https://picsum.photos/seed/peru95/400/300",
+    "categoria": "peru"
+  },
+  {
+    "id": 96,
+    "titulo": "Perú destaca en exportaciones agrícolas",
+    "resumen": "El aguacate peruano gana terreno internacional.",
+    "imagen": "https://picsum.photos/seed/peru96/400/300",
+    "categoria": "peru"
+  },
+  {
+    "id": 97,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/politica97/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 98,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/politica98/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 99,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/politica99/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 100,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/politica100/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 101,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/politica101/400/300",
+    "categoria": "politica"
+  },
+  {
+    "id": 102,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/salud102/400/300",
+    "categoria": "salud"
+  },
+  {
+    "id": 103,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/salud103/400/300",
+    "categoria": "salud"
+  },
+  {
+    "id": 104,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/salud104/400/300",
+    "categoria": "salud"
+  },
+  {
+    "id": 105,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/salud105/400/300",
+    "categoria": "salud"
+  },
+  {
+    "id": 106,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/salud106/400/300",
+    "categoria": "salud"
+  },
+  {
+    "id": 107,
+    "titulo": "Campañas ciudadanas transforman barrios",
+    "resumen": "Vecinos se unen por un entorno más seguro.",
+    "imagen": "https://picsum.photos/seed/sociedad107/400/300",
+    "categoria": "sociedad"
+  },
+  {
+    "id": 108,
+    "titulo": "Campañas ciudadanas transforman barrios",
+    "resumen": "Vecinos se unen por un entorno más seguro.",
+    "imagen": "https://picsum.photos/seed/sociedad108/400/300",
+    "categoria": "sociedad"
+  },
+  {
+    "id": 109,
+    "titulo": "Campañas ciudadanas transforman barrios",
+    "resumen": "Vecinos se unen por un entorno más seguro.",
+    "imagen": "https://picsum.photos/seed/sociedad109/400/300",
+    "categoria": "sociedad"
+  },
+  {
+    "id": 110,
+    "titulo": "Campañas ciudadanas transforman barrios",
+    "resumen": "Vecinos se unen por un entorno más seguro.",
+    "imagen": "https://picsum.photos/seed/sociedad110/400/300",
+    "categoria": "sociedad"
+  },
+  {
+    "id": 111,
+    "titulo": "Campañas ciudadanas transforman barrios",
+    "resumen": "Vecinos se unen por un entorno más seguro.",
+    "imagen": "https://picsum.photos/seed/sociedad111/400/300",
+    "categoria": "sociedad"
+  },
+  {
+    "id": 112,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/tecnologia112/400/300",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": 113,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/tecnologia113/400/300",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": 114,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/tecnologia114/400/300",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": 115,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/tecnologia115/400/300",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": 116,
+    "titulo": "Título de ejemplo",
+    "resumen": "Esta noticia destaca un evento o desarrollo relevante en el área correspondiente. Se brindan detalles que permiten entender el contexto y la importancia del suceso, buscando informar de manera clara y directa al lector.",
+    "imagen": "https://picsum.photos/seed/tecnologia116/400/300",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": 117,
+    "titulo": "Actriz colombiana protagoniza serie internacional",
+    "resumen": "La producción será transmitida en más de 20 países.",
+    "imagen": "https://picsum.photos/seed/teleshow117/400/300",
+    "categoria": "teleshow"
+  },
+  {
+    "id": 118,
+    "titulo": "Actriz colombiana protagoniza serie internacional",
+    "resumen": "La producción será transmitida en más de 20 países.",
+    "imagen": "https://picsum.photos/seed/teleshow118/400/300",
+    "categoria": "teleshow"
+  },
+  {
+    "id": 119,
+    "titulo": "Actriz colombiana protagoniza serie internacional",
+    "resumen": "La producción será transmitida en más de 20 países.",
+    "imagen": "https://picsum.photos/seed/teleshow119/400/300",
+    "categoria": "teleshow"
+  },
+  {
+    "id": 120,
+    "titulo": "Actriz colombiana protagoniza serie internacional",
+    "resumen": "La producción será transmitida en más de 20 países.",
+    "imagen": "https://picsum.photos/seed/teleshow120/400/300",
+    "categoria": "teleshow"
+  },
+  {
+    "id": 121,
+    "titulo": "Actriz colombiana protagoniza serie internacional",
+    "resumen": "La producción será transmitida en más de 20 países.",
+    "imagen": "https://picsum.photos/seed/teleshow121/400/300",
+    "categoria": "teleshow"
+  },
+  {
+    "id": 122,
+    "titulo": "Inteligencia artificial revoluciona redes sociales",
+    "resumen": "Nuevas herramientas de IA personalizan el contenido.",
+    "imagen": "https://picsum.photos/seed/tendencias122/400/300",
+    "categoria": "tendencias"
+  },
+  {
+    "id": 123,
+    "titulo": "Inteligencia artificial revoluciona redes sociales",
+    "resumen": "Nuevas herramientas de IA personalizan el contenido.",
+    "imagen": "https://picsum.photos/seed/tendencias123/400/300",
+    "categoria": "tendencias"
+  },
+  {
+    "id": 124,
+    "titulo": "Inteligencia artificial revoluciona redes sociales",
+    "resumen": "Nuevas herramientas de IA personalizan el contenido.",
+    "imagen": "https://picsum.photos/seed/tendencias124/400/300",
+    "categoria": "tendencias"
+  },
+  {
+    "id": 125,
+    "titulo": "Inteligencia artificial revoluciona redes sociales",
+    "resumen": "Nuevas herramientas de IA personalizan el contenido.",
+    "imagen": "https://picsum.photos/seed/tendencias125/400/300",
+    "categoria": "tendencias"
+  },
+  {
+    "id": 126,
+    "titulo": "Inteligencia artificial revoluciona redes sociales",
+    "resumen": "Nuevas herramientas de IA personalizan el contenido.",
+    "imagen": "https://picsum.photos/seed/tendencias126/400/300",
+    "categoria": "tendencias"
+  },
+  {
+    "id": 127,
+    "titulo": "Estudiantes colombianos ganan oro en olimpiada internacional de matemáticas",
+    "resumen": "Un grupo de jóvenes colombianos ha logrado la medalla de oro en una prestigiosa olimpiada internacional de matemáticas, superando a más de 50 países. Este logro destaca el potencial académico del país y enorgullece al sistema educativo nacional.",
+    "imagen": "https://images.unsplash.com/photo-1600880292089-90a7e086ee4b",
+    "categoria": "ultimas noticias"
+},
+{
+    "id": 128,
+    "titulo": "Nueva app colombiana ayuda a detectar problemas de visión en segundos",
+    "resumen": "Una innovadora aplicación desarrollada por emprendedores colombianos permite detectar problemas visuales desde un celular. Ya ha beneficiado a más de 10.000 personas en zonas rurales, y planean su expansión internacional.",
+    "imagen": "https://images.unsplash.com/photo-1581091215367-59aa4f1f05b6",
+    "categoria": "ultimas noticias"
+},
+{
+    "id": 129,
+    "titulo": "Pequeño pueblo se convierte en modelo nacional de energía solar",
+    "resumen": "Gracias a un proyecto comunitario, un pueblo colombiano logró abastecerse al 100% con energía solar. La iniciativa ha sido reconocida por organismos internacionales y busca replicarse en otras regiones del país.",
+    "imagen": "https://images.unsplash.com/photo-1584277260448-974f70a2aa2c",
+    "categoria": "ultimas noticias"
+},
+{
+    "id": 130,
+    "titulo": "Colombia rompe récord en exportación de flores ecológicas",
+    "resumen": "El sector floricultor colombiano marcó un hito con la exportación masiva de flores cultivadas de forma sostenible. Esta hazaña consolida al país como líder mundial en floricultura consciente.",
+    "imagen": "https://images.unsplash.com/photo-1504198266285-165a4dd6baee",
+    "categoria": "ultimas noticias"
+},
+{
+    "id": 131,
+    "titulo": "Biblioteca flotante llega a comunidades del Amazonas",
+    "resumen": "Una embarcación adaptada como biblioteca móvil ha comenzado a recorrer ríos del Amazonas, llevando libros y actividades educativas a niños y jóvenes de zonas remotas.",
+    "imagen": "https://images.unsplash.com/photo-1523942839745-7848d1a07c8b",
+    "categoria": "ultimas noticias"
+},
+{
+    "id": 132,
+    "titulo": "Ingenieros colombianos desarrollan sistema contra incendios forestales",
+    "resumen": "Un grupo de ingenieros ha creado un sistema de monitoreo y respuesta temprana para prevenir incendios forestales. El prototipo ha sido probado con éxito en zonas de alto riesgo.",
+    "imagen": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238",
+    "categoria": "ultimas noticias"
+},
+{
+    "id": 133,
+    "titulo": "Festival gastronómico en Bogotá atrae a más de 100.000 visitantes",
+    "resumen": "El festival 'Sabores de Colombia' reunió a chefs, productores y turistas en un evento que resaltó lo mejor de la cocina nacional. El éxito ha impulsado la economía local.",
+    "imagen": "https://images.unsplash.com/photo-1606788075761-49bd3c6b4da0",
+    "categoria": "ultimas noticias"
+},
+{
+    "id": 134,
+    "titulo": "Niños crean proyecto de reciclaje que transforma botellas en mochilas",
+    "resumen": "Un grupo escolar desarrolló una iniciativa para convertir botellas plásticas en útiles escolares. Su trabajo fue premiado en un concurso nacional de emprendimiento juvenil.",
+    "imagen": "https://images.unsplash.com/photo-1608590889993-cf0663e1e3f7",
+    "categoria": "ultimas noticias"
+},
+{
+    "id": 135,
+    "titulo": "Colombianos lanzan plataforma para donaciones sin intermediarios",
+    "resumen": "Una startup lanzó una plataforma que conecta directamente a donantes con causas sociales, eliminando costos intermedios. Ya ha movilizado más de 500 millones en ayudas.",
+    "imagen": "https://images.unsplash.com/photo-1556740749-887f6717d7e4",
+    "categoria": "ultimas noticias"
+},
+{
+    "id": 136,
+    "titulo": "Startup de movilidad eléctrica gana premio internacional",
+    "resumen": "Una empresa colombiana fue galardonada por su diseño innovador de vehículos eléctricos urbanos. El proyecto ha captado la atención de inversionistas internacionales.",
+    "imagen": "https://images.unsplash.com/photo-1596477602103-9d20db68f2b2",
+    "categoria": "ultimas noticias"
+}
+]

@@ -8,7 +8,7 @@ function cargarSidebarPorCategoria(categoria) {
         // Seleccionar aleatoriamente 4 noticias
         const seleccionadas = noticiasCategoria
           .sort(() => 0.5 - Math.random())
-          .slice(0, 4);
+          .slice(0, 5);
   
         // Generar HTML
         let html = `<aside class="sidebar">
@@ -21,6 +21,7 @@ function cargarSidebarPorCategoria(categoria) {
               <a href="#">
                 <img src="${noticia.imagen}" alt="${noticia.titulo}" />
                 <span>${noticia.titulo}</span>
+                <p>${noticia.resumen}</p>
               </a>
             </li>`;
         });

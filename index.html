@@ -1,261 +1,52 @@
 <!DOCTYPE html>
-<!-- Declaración del tipo de documento HTML5 -->
-<html>
-    <head>
-        <!-- Título del sitio que aparece en la pestaña del navegador -->
-        <title>ALL NEWS - The All News Studio</title>
-         <!-- Enlace al archivo de estilos CSS principal -->
-        <link rel="stylesheet" href="styles.css">
-         <!-- Script de Font Awesome para los íconos utilizados -->
-        <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ALL NEWS - The All News Studio</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Header se carga dinámicamente -->
+    <div id="header"></div>
 
-    </head>
-    
-    <body>
-          <!-- Encabezado principal del sitio -->
-        <header>
-            <div class="container">
-                <div class="top-buttons">
-                    <i class="fa-solid fa-bars"></i>
-                    <i class="fa-solid fa-magnifying-glass"></i>         
-                    <!-- Menú de navegación principal -->
-                    <nav>
-                        <ul>
-                            <li><a href="http://www.google.com">Últimas noticias</a></li>
-                            <li><a href="categorias/politica.html">Política</a></li>
-                            <li><a href="categorias/sociedad.html">Sociedad</a></li>
-                            <li><a href="categorias/economia.html">Económica</a></li>
-                            <li><a href="categorias/tecnologia.html">Tecnología</a></li>
-                            <li><a href="categorias/deportes.html">Sports</a></li>
-                            <li><a href="categorias/tendencias.html">Tendencias</a></li>
-                            <li><a href="categorias/cultura.html">Cultura</a></li>
-                            <li><a href="categorias/quever.html">¿Qué puedo ver?</a></li>
-                        </ul>       
-                    </nav>
-                <!-- Logo de la página -->
-                </div>
-                <div class="logo">
-                    <img src="img/logo.png" alt="Logo all news" />
-                </div>
-                <div class="mid-buttons">
-                    <ul>
-                        <li><a href="categorias/america.html">AMÉRICA</a></li>
-                        <li><a href="categorias/colombia.html">COLOMBIA</a></li>
-                        <li><a href="categorias/mexico.html">MEXICO</a></li>
-                        <li><a href="categorias/quever.html">QUÉ PUEDO VER</a></li>
-                        <li><a href="categorias/economia.html">ECONOMÍA</a></li>
-                        <li><a href="categorias/teleshow.html">TELESHOW</a></li>
-                        <li><a href="categorias/deportes.html">DEPORTES</a></li>
-                        <li><a href="categorias/cultura.html">CULTURA</a></li>
-                    </ul>
-                </div>
-                
-                <div class="today-date">
-                    <div class="line"></div>
-                    <div class="date">Lunes xx de junio de 20xx</div>
-                    <div class="line"></div>
-                </div>
-                <div class="lower-buttons">
-                    <ul>
-                        <li class="first-button">
-                            <a href="#">Últimas notcias</a>
-                        </li>
-                        <li>
-                            <a href="#">Confesiones</a>
-                        </li>
-                        <li>
-                            <a href="#">Salud</a>
-                        </li>
-                        <li>
-                            <a href="#">Tendencias</a>
-                        </li>
-                        <li>
-                            <a href="#">ESPN</a>
-                        </li>
-                        <li>
-                            <a href="#">newsletter</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>     
-        </header>
-        <!-- Contenido principal del sitio -->
-        <main>
-           <!-- Sección de noticias principal -->
-            <section id="news-feed" class="container">
-                <div class="news-block">
-                    <div class="left-block">
-                        <article>
-                            <img img src="img/cansado.png" alt="cansado"/>
-                            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <STRong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</STRong> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        </article>
-                        <article>
-                            <img img src="img/cultura.png" alt="cansado"/>
-                            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        </article>
-                        <article>
-                            <img img src="img/moda.png" alt="cansado"/>
-                            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        </article>
-                        <article>
-                            <img img src="img/caricaruea.png" alt="cansado"/>
-                            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        </article>
-                        <article>
-                            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h2>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        </article>
-                        <article>
-                            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h2>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        </article>
-                    </div>
-                    <!-- Columna derecha de artículos -->
-                    <div class="right-block">
-                        <article>
-                            <img img src="img/decompras.jpeg" alt="cansado"/>
-                            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        </article>
-                        <article>
-                            <img img src="img/pop.jpeg" alt="cansado"/>
-                            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        </article>
-                        <article>
-                            <img img src="img/chicaespacial.png" alt="cansado"/>
-                            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        </article>
-                        <article>
-                            <img img src="img/elmundo.png" alt="cansado"/>
-                            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        </article>
-                        <article>
-                            <img img src="img/mascotas.jpeg" alt="cansado"/>
-                            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        </article>
-                        <!-- Agrega más elementos article según lo necesites -->
-                    </div>
-                </div>                      
-            </section>
-        </main>
-         <!-- Pie de página con enlaces y redes sociales -->
-        <footer>
-            <div class="topbar">
-                <img img src="img/logo.png" alt="allnews"/>
-                <div class="rrss">
-                    <a href="#">
-                        <i class ="fab fa-facebook-square"></i>                       
-                    </a>
-                    <a href="#">
-                        <i class ="fab fa-twitter"></i>                       
-                    </a>
-                    <a href="#">
-                        <i class ="fab fa-instagram"></i>                       
-                    </a>
-                    <a href="#">
-                        <i class ="fas fa-rss"></i>                       
-                    </a>
-                    <a href="#">
-                        <i class ="fab fa-youtube"></i>                       
-                    </a>         
-                </div>
+    <!-- Contenido principal -->
+    <main class="container">
+        <section id="news-feed">
+          <div class="news-block">
+            <div class="left-block">
+              <!--<h1>Ultimas Noticias</h1>-->
+              <div id="contenedor-noticias"></div>
             </div>
-            <div class="sitemap">
-                <div class="col">
-                    <ul>                  
-                        <li>
-                            <span>all news</span>
-                        </li>
-                        <li>
-                            <a href="categorias/colombia.html">Colombia</a>
-                        </li>
-                        <li>
-                            <a href="categorias/america.html">America</a>
-                        </li>
-                        <li>
-                            <a href="categorias/argentina.html">Argentina</a>
-                        </li>
-                        <li>
-                            <a href="categorias/mexico.html">Mexico</a>
-                        </li>
-                        <li>
-                            <a href="categorias/peru.html">Perú</a>
-                        </li>
-                        <li>
-                            <a href="categorias/rss.html">RSS</a>
-                        </li>
-                        <li>
-                            <a href="categorias/ultimasnoticias.html">Ultima noticias</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>                  
-                        <li>
-                            <span>Contáctenos</span>
-                        </li>
-                        <li>
-                            <a href="categorias/contacto.html">Contacto</a>
-                        </li>
-                        <li>
-                            <a href="categorias/redaccion.html">Redacción</a>
-                        </li>
-                        <li>
-                            <a href="categorias/contactocomercial.html">Contacto comercial</a>
-                        </li>
-                        <li>
-                            <a href="categorias/media_kit.html">Media Kit</a>
-                        </li>
-                        <li>
-                            <a href="categorias/empleo.html">Empleo</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>                  
-                        <li>
-                            <span>Redes Sociales</span>
-                        </li>
-                        <li>
-                            <a href="#">Facebook</a>
-                        </li>
-                        <li>
-                            <a href="#">Twitter</a>
-                        </li>
-                        <li>
-                            <a href="#">Instagram</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>                  
-                        <li>
-                            <span>Contáctenos</span>
-                        </li>
-                        <li>
-                            <a href="categorias/Términosycondiciones.html">Términos y condiciones</a>
-                        </li>
-                        <li>
-                            <a href="categorias/Politicas_de_privacidad.html">Politicas de privacidad</a>
-                        </li>
-                    </ul>
-                </div>
-                
+            <div class="right-block">
+              <div id="sidebar"></div>
             </div>
-            <!-- Derechos reservados -->
-            <div class="copyright">
-                Todos los Derechos Reservados © all news 2023
-            </div>
-            
-        </footer>
-        
-    </body>
+          </div>
+        </section>
+      </main>
+      
+      
+
+    <!-- Footer se carga dinámicamente -->
+    <div id="footer"></div>
+
+    <!-- Script que carga los componentes comunes -->
+    <script src="../js/componentLoader.js"></script>
+
+
+    <!-- Script que contiene la función cargarNoticiasPorCategoria -->
+    <script src="../js/noticias.js"></script>
+    <!-- Script que contiene la función cargarSidebarPorCategoria -->
+    <script src="../js/sidebar.js"></script>
+
+
+
+    <!-- Llamada a la función después de haberla definido -->
+    <script>
+      //cargarNoticiasPorCategoria("ultimas noticias");
+      cargarSidebarPorCategoria("ultimas noticias");
+      cargarNoticiasInicio(3); 
+
+    </script>
+  </body>
 </html>
