@@ -1,192 +1,79 @@
 <!DOCTYPE html>
-<!-- Declaración del tipo de documento HTML5 -->
-<html>
-    <head>
-        <!-- Título que aparece en la pestaña del navegador -->
-        <title>REGISTRO - ALL NEWS - The All News Studio</title>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Registrarme - All News</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
+</head>
+<body>
 
-        <!-- Enlace a la hoja de estilos externa -->
-        <link rel="stylesheet" href="styles.css">
+  <!-- Header dinámico -->
+  <div id="header"></div>
 
-        <!-- Inclusión de librería de íconos Font Awesome -->
-        <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
-    </head>
-    
-    <body>
-        <!-- Encabezado principal -->
-        <header>
-            <div class="container">
-                <!-- Parte superior con botones de menú y búsqueda -->
-                <div class="top-buttons">
-                    <i class="fa-solid fa-bars"></i>
-                    <i class="fa-solid fa-magnifying-glass"></i>
+  <!-- Contenido principal -->
+  <main>
+    <div class="container">
+      <div class="form-register-box">
+        <h1>REGISTRARME</h1>
+        <p>De manera gratuita y accede a nuestros contenidos exclusivos</p>
 
-                    <!-- Menú de navegación principal -->
-                    <nav>
-                        <ul>
-                            <!-- Enlaces a secciones temáticas del sitio -->
-                            <li><a href="http://www.google.com">Últimas noticias</a></li>
-                            <li><a href="http://www.google.com">Politica</a></li>
-                            <li><a href="http://www.google.com">Sociedad</a></li>
-                            <li><a href="http://www.google.com">Economica</a></li>
-                            <li><a href="http://www.google.com">Tecnologia</a></li>
-                            <li><a href="http://www.google.com">Sports</a></li>
-                            <li><a href="http://www.google.com">Tendencias</a></li>
-                            <li><a href="http://www.google.com">Cultura</a></li>
-                            <li><a href="http://www.google.com">¿Qué puedo ver?</a></li>
-                        <ul> <!-- ⚠️ Error: Falta cierre correcto </ul> -->
-                    </nav>
-                </div>
+        <form class="form-register" id="register-form">
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="text" name="nombre" placeholder="Nombre" required>
+          <input type="text" name="apellido" placeholder="Apellido" required>
+          <input type="text" name="pais" placeholder="País de Residencia" required>
 
-                <!-- Logo de la plataforma -->
-                <div class="logo">
-                    <img src="img/logo.png" alt="Logo all news" />
-                </div>
+          <select name="genero" required>
+            <option value="">Género</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+          </select>
 
-                <!-- Menú medio con categorías -->
-                <div class="mid-buttons">
-                    <ul>
-                        <li><a href="#">AMÉRICA</a></li>
-                        <li><a href="#">COLOMBIA</a></li>
-                        <li><a href="#">MEXICO</a></li>
-                        <li><a href="#">QUÉ PUEDO VER</a></li>
-                        <li><a href="#">ECONÓMIA</a></li>
-                        <li><a href="#">TELESHOW</a></li>
-                        <li><a href="#">DEPORTES</a></li>
-                        <li><a href="#">CULTURA</a></li>
-                    </ul>
-                </div>
+          <input type="date" name="fecha_nacimiento" required>
+          <input type="password" name="password" placeholder="Contraseña" required>
+          <input type="password" name="confirm_password" placeholder="Confirmar contraseña" required>
 
-                <!-- Fecha del día -->
-                <div class="today-date">
-                    <div class="line"></div>
-                    <div class="date">Lunes xx de junio de 20xx</div>
-                    <div class="line"></div>
-                </div>
+          <div class="terms-container">
+            <input type="checkbox" name="terminos" required>
+            <label for="terminos">Acepto términos y condiciones</label>
+          </div>
 
-                <!-- Menú inferior adicional -->
-                <div class="lower-buttons">
-                    <ul>
-                        <li class="first-button"><a href="#">Últimas notcias</a></li>
-                        <li><a href="#">Confesiones</a></li>
-                        <li><a href="#">Salud</a></li>
-                        <li><a href="#">Tendencias</a></li>
-                        <li><a href="#">ESPN</a></li>
-                        <li><a href="#">newsletter</a></li>
-                    </ul>
-                </div>
-            </div>     
-        </header>
+          <button type="submit">Registrarme</button>
 
-        <!-- Sección principal de contenido -->
-        <main>
-            <div class="container">
-                <!-- Caja del formulario de registro -->
-                <div class="form-register-box">
-                    <h1>REGISTRARME</h1>
-                    <p>De manera gratuita y accede a nuestros contenidos exclusivos</p>
+          <!-- Botón nuevo para ir al login -->
+          <div style="margin-top: 10px; text-align: center;">
+            <button type="button" id="go-login" style="background: none; border: none; color: #007bff; cursor: pointer; text-decoration: underline; font-size: 0.9rem;">
+              ¿Ya tienes cuenta? Inicia Sesión
+            </button>
+          </div>
 
-                    <!-- Formulario de registro que envía los datos a registro.php -->
-                    <form class="form-register" action="registro.php" method="POST">
-                        <!-- Campo para el correo electrónico -->
-                        <input type="email" name="email" placeholder="Email" required>
+        </form>
+      </div>
+    </div>
+  </main>
 
-                        <!-- Campos para nombre y apellido -->
-                        <input type="text" name="nombre" placeholder="Nombre" required>
-                        <input type="text" name="apellido" placeholder="Apellido" required>
+  <!-- Footer dinámico -->
+  <div id="footer"></div>
 
-                        <!-- Campo de país -->
-                        <input type="text" name="pais" placeholder="País de Residencia" required>
+  <!-- Scripts -->
+  <script src="../js/componentLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="../js/register.js"></script> <!-- SOLO en registro.html -->
+  <script src="../js/login.js"></script> <!-- para navegación básica si lo quieres -->
+  <script src="../js/validarSesion.js"></script>
+  <script src="../js/userSession.js"></script>
 
-                        <!-- Selector de género con opciones -->
-                        <select name="genero" required>
-                            <option value="">Género</option>
-                            <option value="masculino">Masculino</option>
-                            <option value="femenino">Femenino</option>
-                            <option value="otro">Otro</option>
-                        </select>
+  <!-- Script para el botón de ir al login -->
+  <script>
+    const goLoginButton = document.getElementById('go-login');
+    if (goLoginButton) {
+      goLoginButton.addEventListener('click', () => {
+        window.location.href = "login.html";
+      });
+    }
+  </script>
 
-                        <!-- Campo para fecha de nacimiento -->
-                        <input type="date" name="fecha_nacimiento" required>
-
-                        <!-- Contraseña y confirmación -->
-                        <input type="password" name="password" placeholder="Contraseña" required>
-                        <input type="password" name="confirm_password" placeholder="Confirmar contraseña" required>
-
-                        <!-- Casilla de aceptación de términos -->
-                        <div class="terms-container">
-                            <input type="checkbox" name="terminos" required>
-                            <label for="terminos">Acepto términos y condiciones</label>
-                        </div>
-
-                        <!-- Botón para enviar el formulario -->
-                        <button type="submit">Continuar</button>
-                    </form>
-                </div>
-            </div>
-        </main>
-
-        <!-- Pie de página -->
-        <footer>
-            <div class="topbar">
-                <!-- Logo del footer -->
-                <img src="img/logo.png" alt="Logo all news" />
-
-                <!-- Enlaces a redes sociales -->
-                <div class="rrss">
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fas fa-rss"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
-
-            <!-- Mapa del sitio dividido por categorías -->
-            <div class="sitemap">
-                <div class="col">
-                    <ul>
-                        <li><span>all news</span></li>
-                        <li><a href="#">Colombia</a></li>
-                        <li><a href="#">America</a></li>
-                        <li><a href="#">Argentina</a></li>
-                        <li><a href="#">Mexico</a></li>
-                        <li><a href="#">Perú</a></li>
-                        <li><a href="#">RSS</a></li>
-                        <li><a href="#">Ultima noticias</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>
-                        <li><span>Contáctenos</span></li>
-                        <li><a href="#">Contacto</a></li>
-                        <li><a href="#">Redacción</a></li>
-                        <li><a href="#">Contacto comercial</a></li>
-                        <li><a href="#">Media Kit</a></li>
-                        <li><a href="#">Empleo</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>
-                        <li><span>Redes Sociales</span></li>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Instagram</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>
-                        <li><span>Contáctenos</span></li>
-                        <li><a href="#">Términos y condiciones</a></li>
-                        <li><a href="#">Politicas de privacidad</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Derechos de autor -->
-            <div class="copyright">
-                Todos los Derechos Reservados © all news 2023
-            </div>
-        </footer>
-    </body>
+</body>
 </html>

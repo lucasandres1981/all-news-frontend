@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sociedad - All News</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Header se carga dinámicamente -->
+    <div id="header"></div>
+
+    <!-- Contenido principal -->
+    <main class="container">
+        <section id="news-feed">
+          <div class="news-block">
+            <div class="left-block">
+              <h1>Noticias de Sociedad/h1>
+              <div id="contenedor-noticias"></div>
+            </div>
+            <div class="right-block">
+              <div id="sidebar"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+      
+      
+
+    <!-- Footer se carga dinámicamente -->
+    <div id="footer"></div>
+
+    <!-- Script que carga los componentes comunes -->
+    <script src="../js/componentLoader.js"></script>
+
+    <!-- Script que contiene la función cargarNoticiasPorCategoria -->
+    <script src="../js/noticias.js"></script>
+    
+    <!-- Script que contiene la función cargarSidebarPorCategoria -->
+    <script src="../js/sidebar.js"></script>
+    <script src="../js/userSession.js"></script>
+
+
+
+    <!-- Llamada a la función después de haberla definido -->
+    <script>
+      cargarNoticiasPorCategoria("sociedad");
+      cargarSidebarPorCategoria("sociedad");   
+    </script>
+  </body>
+</html>

@@ -173,10 +173,22 @@ header .lower-buttons ul li a{
     text-decoration: none;    
 }
 
+.user-info {
+  margin-left: auto;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  font-family: raleway-Bold, sans-serif;
+  font-size: 14px;
+  color: #333333;
+}
+
+/* --- MAIN NOTICIAS --- */
 #news-feed .news-block {
     display: flex;
     width: 100%;
     margin-top: 45PX;
+    margin-bottom: 45PX;
 }    
 
 #news-feed .news-block .left-block {
@@ -186,6 +198,7 @@ header .lower-buttons ul li a{
     box-shadow: 0 0 2px gray;
     border: 1px solid rgb(220, 220, 220);
     font-family: raleway-Regular, sans-serif;
+    /*text-align: center;*/
     color: #333333;
 }
 
@@ -196,12 +209,14 @@ header .lower-buttons ul li a{
     box-shadow: 0 0 2px gray;
     border: 1px solid rgb(220, 220, 220);
     font-family: raleway-Regular, sans-serif;
+    /*text-align: center;*/
     color: #333333;
 }
 
 #news-feed .news-block .left-block img {
     width: 100%;
     height: auto;
+  
 }
 
 #news-feed .news-block .right-block img {
@@ -432,6 +447,55 @@ footer .copyright{
     text-decoration: underline;
   }
   
+  /* --- FORMULARIO DE CONTACTO --- */
+  
+  .form-contacto-box {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 30px 40px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: raleway-Regular, sans-serif;
+    text-align: center;
+  }
+  
+  .form-contacto-box h1 {
+    font-family: raleway-Bold, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-contacto input,
+  .form-contacto textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: raleway-Regular, sans-serif;
+  }
+  
+  .form-contacto button {
+    width: 100%;
+    padding: 12px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-family: raleway-Bold, sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-contacto button:hover {
+    background-color: darkorange;
+  }
+  
+
+
   /* --- FORMULARIO DE ADMINISTRADOR --- */
 
   .admin-news-form {
@@ -535,6 +599,18 @@ footer .copyright{
     cursor: pointer;
     border-radius: 5px;
   }
+  .btn-logout {
+    width: 100%;
+    background: orange;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
 /*Styles Sidebar*/  
 
 .right-block aside {
@@ -548,6 +624,7 @@ footer .copyright{
   font-family: raleway-Bold, sans-serif;
   font-size: 18px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .right-block aside ul {
@@ -563,4 +640,197 @@ footer .copyright{
   text-decoration: none;
   color: #333;
   font-size: 14px;
+}
+
+/* ===== Estilos para Política de Privacidad y Términos de Uso ===== */
+
+.legal-page {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 40px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  font-family: raleway-Regular, sans-serif;
+  line-height: 1.6;
+}
+
+.legal-page h1 {
+  text-align: center;
+  font-family: raleway-Bold, sans-serif;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.legal-page h2 {
+  font-family: raleway-Bold, sans-serif;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.legal-page p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Estilo para la fecha de última actualización */
+.legal-page strong {
+  color: #777;
+  font-size: 14px;
+}
+/* --- PÁGINAS LEGALES (Política de Privacidad y Términos de Uso) --- */
+.legal-page {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: raleway-Regular, sans-serif;
+  color: #333;
+}
+
+.legal-page h1 {
+  text-align: center;
+  font-family: raleway-Bold, sans-serif;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.legal-page h2 {
+  font-family: raleway-Bold, sans-serif;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.legal-page p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.legal-page strong {
+  font-weight: bold;
+  color: #000;
+}
+/* --- news letter --- */
+
+.newsletter-box {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 30px 40px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: raleway-Regular, sans-serif;
+}
+
+.newsletter-box h1 {
+  font-family: raleway-Bold, sans-serif;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.newsletter-box p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.form-newsletter input {
+  width: 100%;
+  padding: 12px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: raleway-Regular, sans-serif;
+}
+
+.form-newsletter button {
+  width: 100%;
+  padding: 12px;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-family: raleway-Bold, sans-serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-newsletter button:hover {
+  background-color: darkorange;
+}
+
+.privacy-note {
+  font-size: 12px;
+  color: #777;
+  margin-top: 15px;
+}
+
+/* --- Equipo redacción de noticias --- */
+
+.redaccion {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-family: raleway-Regular, sans-serif;
+}
+
+.redaccion h1 {
+  font-family: raleway-Bold, sans-serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.redaccion p {
+  font-size: 16px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+.equipo-redaccion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.miembro {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.miembro img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.miembro h2 {
+  font-family: raleway-Bold, sans-serif;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.miembro p {
+  font-size: 14px;
+  color: #666;
 }

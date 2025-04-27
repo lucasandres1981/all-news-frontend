@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Economía - All News</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Header se carga dinámicamente -->
+    <div id="header"></div>
+
+    <!-- Contenido principal -->
+    <main class="container legal-page">
+      <h1>Feed RSS de All News</h1>
+      <p>¡Mantente informado automáticamente! Nuestro feed RSS te permite recibir nuestras últimas noticias directamente en tu lector favorito.</p>
+
+      <h2>¿Qué es el RSS?</h2>
+      <p>El RSS te permite suscribirte a nuestros artículos de forma gratuita. Cada vez que publiquemos una nueva noticia, aparecerá automáticamente en tu lector RSS.</p>
+
+      <h2>¿Cómo usarlo?</h2>
+      <p>Solo debes copiar el siguiente enlace y pegarlo en tu lector de noticias favorito:</p>
+
+      <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; overflow-wrap: break-word;">
+        <strong>URL del RSS:</strong><br>
+        <a href="../rss/allnewsfeed.xml" target="_blank">https://www.allnews.com/rss/allnewsfeed.xml</a>
+      </div>
+
+      <h2>Lectores recomendados</h2>
+      <ul>
+        <li><a href="https://feedly.com" target="_blank">Feedly</a></li>
+        <li><a href="https://www.inoreader.com" target="_blank">Inoreader</a></li>
+        <li><a href="https://newsblur.com" target="_blank">NewsBlur</a></li>
+      </ul>
+    </main>
+      
+      
+
+    <!-- Footer se carga dinámicamente -->
+    <div id="footer"></div>
+
+    <!-- Script que carga los componentes comunes -->
+    <script src="../js/componentLoader.js"></script>
+
+    <!-- Script que contiene la función cargarNoticiasPorCategoria -->
+    <script src="../js/noticias.js"></script>
+    
+    <!-- Script que contiene la función cargarSidebarPorCategoria -->
+    <script src="../js/sidebar.js"></script>
+    <script src="../js/userSession.js"></script>
+
+
+
+    <!-- Llamada a la función después de haberla definido -->
+    <script>
+      cargarNoticiasPorCategoria("america");
+      cargarSidebarPorCategoria("america");   
+    </script>
+  </body>
+</html>

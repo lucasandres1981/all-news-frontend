@@ -1,12 +1,204 @@
 {
-    "usuarios": [
-      {
-        "id": 1,
-        "nombre": "Lucas",
-        "email": "lucas@email.com",
-        "password": "123456"
-      }
-    ],
-    "noticias": []
-  }
-  
+  "usuarios": [
+    {
+      "email": "admin@allnews.com",
+      "nombre": "Administrador",
+      "apellido": "All News",
+      "pais": "Colombia",
+      "genero": "Masculino",
+      "fechaNacimiento": "1990-01-01",
+      "password": "admin123",
+      "id": "30aa"
+    },
+    {
+      "email": "usuario1@correo.com",
+      "nombre": "Usuario",
+      "apellido": "Uno",
+      "pais": "México",
+      "genero": "Femenino",
+      "fechaNacimiento": "1995-05-05",
+      "password": "user123",
+      "id": "0dbf"
+    },
+    {
+      "id": "3853",
+      "email": "lucasandres1981@hotmail.com",
+      "nombre": "Lucas",
+      "apellido": "Murillo Arcila",
+      "pais": "Colombia",
+      "genero": "masculino",
+      "fechaNacimiento": "2025-04-23",
+      "password": "1234"
+    },
+    {
+      "id": "d4c3",
+      "email": "1981.lucas.andres@gmail.com",
+      "nombre": "Lucas Andres",
+      "apellido": "Arcila",
+      "pais": "Colombia",
+      "genero": "masculino",
+      "fechaNacimiento": "2025-04-23",
+      "password": "1234"
+    },
+    {
+      "id": "4008",
+      "email": "lucasandres1981@hotmail.com",
+      "nombre": "Lucas",
+      "apellido": "Arcila",
+      "pais": "Colombia",
+      "genero": "masculino",
+      "fechaNacimiento": "2025-04-16",
+      "password": "1234"
+    },
+    {
+      "id": "8de1",
+      "email": "user123@email.com",
+      "nombre": "usuario1",
+      "apellido": "user1",
+      "pais": "Colombia",
+      "genero": "masculino",
+      "fechaNacimiento": "2025-04-09",
+      "password": "1234"
+    },
+    {
+      "id": "75fb",
+      "email": "lucasandres1981@hotmail.com",
+      "nombre": "Lucas",
+      "apellido": "Arcila",
+      "pais": "Colombia",
+      "genero": "masculino",
+      "fechaNacimiento": "2025-04-17",
+      "password": "1234"
+    },
+    {
+      "id": "63d1",
+      "email": "lucasandres1981@hotmail.com",
+      "nombre": "Lucas",
+      "apellido": "Arcila",
+      "pais": "Colombia",
+      "genero": "masculino",
+      "fechaNacimiento": "2025-04-03",
+      "password": "1234"
+    },
+    {
+      "id": "8b47",
+      "email": "user2@email.com",
+      "nombre": "user2",
+      "apellido": "user2",
+      "pais": "colo",
+      "genero": "masculino",
+      "fechaNacimiento": "2025-12-30",
+      "password": "1234"
+    },
+    {
+      "id": "cefa",
+      "email": "user4@email.com",
+      "nombre": "user4",
+      "apellido": "user4",
+      "pais": "colombia",
+      "genero": "femenino",
+      "fechaNacimiento": "1981-02-25",
+      "password": "1234"
+    },
+    {
+      "id": "af72",
+      "email": "user5@email.com",
+      "nombre": "user5",
+      "apellido": "user5",
+      "pais": "colombia",
+      "genero": "masculino",
+      "fechaNacimiento": "0002-02-15",
+      "password": "1234"
+    },
+    {
+      "id": "482b",
+      "email": "user6@email.com",
+      "nombre": "user6",
+      "apellido": "user6",
+      "pais": "Colombia",
+      "genero": "masculino",
+      "fechaNacimiento": "2025-04-04",
+      "password": "1234"
+    },
+    {
+      "id": "2dad",
+      "email": "user7@gmail.co",
+      "nombre": "user7",
+      "apellido": "user7",
+      "pais": "colombia",
+      "genero": "masculino",
+      "fechaNacimiento": "2025-04-16",
+      "password": "1234"
+    },
+    {
+      "id": "52c8",
+      "email": "user8@email.com",
+      "nombre": "user8",
+      "apellido": "user8",
+      "pais": "colombia",
+      "genero": "femenino",
+      "fechaNacimiento": "2025-04-14",
+      "password": "1234"
+    },
+    {
+      "id": "aac9",
+      "email": "user9@email.com",
+      "nombre": "user9",
+      "apellido": "user9",
+      "pais": "col",
+      "genero": "masculino",
+      "fechaNacimiento": "2025-04-10",
+      "password": "1234"
+    },
+    {
+      "id": "b084",
+      "email": "lucasandres1981@hotmail.com",
+      "nombre": "Lucas",
+      "apellido": "Arcila",
+      "pais": "Colombia",
+      "genero": "masculino",
+      "fechaNacimiento": "2025-04-09",
+      "password": "1234"
+    },
+    {
+      "id": "10af",
+      "email": "lucasandres1981@hotmail.com",
+      "nombre": "Lucas",
+      "apellido": "Arcila",
+      "pais": "Colombia",
+      "genero": "masculino",
+      "fechaNacimiento": "2025-04-09",
+      "password": "1234"
+    },
+    {
+      "id": "2219",
+      "email": "lucasandres1981@hotmail.com",
+      "nombre": "Lucas",
+      "apellido": "Arcila",
+      "pais": "Colombia",
+      "genero": "masculino",
+      "fechaNacimiento": "2025-04-02",
+      "password": "1234"
+    },
+    {
+      "id": "07f3",
+      "email": "lucasandres1981@hotmail.com",
+      "nombre": "Lucas",
+      "apellido": "Arcila",
+      "pais": "Colombia",
+      "genero": "femenino",
+      "fechaNacimiento": "2025-04-11",
+      "password": "1234"
+    },
+    {
+      "id": "71a8",
+      "email": "lucasandres1981@hotmail.com",
+      "nombre": "Lucas",
+      "apellido": "Arcila",
+      "pais": "Colombia",
+      "genero": "masculino",
+      "fechaNacimiento": "2025-04-08",
+      "password": "1234"
+    }
+  ]
+}

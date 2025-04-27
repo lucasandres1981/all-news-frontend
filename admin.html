@@ -1,179 +1,78 @@
 <!DOCTYPE html>
-<!-- Declaración del tipo de documento HTML5 -->
-<html>
-    <head>
-        <!-- Título de la página que aparece en la pestaña del navegador -->
-        <title>ALL NEWS - The All News Studio</title>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Admin Panel - All News</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Header se carga dinámicamente -->
+    <div id="header"></div>
 
-        <!-- Enlace a la hoja de estilos externa -->
-        <link rel="stylesheet" href="styles.css">
+    <!-- Contenido principal -->
+    <main>
+        <section class="admin-news-form container">
+            <!-- Título de la sección de administración -->
+            <h1>AGREGAR NOTICIA</h1>
+            <p class="admin-subtitle">Crea y publica contenido para el portal de noticias</p>
 
-        <!-- Inclusión de la biblioteca de íconos Font Awesome -->
-        <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
-    </head>
-    
-    <body>
-        <!-- Encabezado principal del sitio web -->
-        <header>
-            <div class="container">
-                <!-- Botones superiores: menú hamburguesa y búsqueda -->
-                <div class="top-buttons">
-                    <i class="fa-solid fa-bars"></i>
-                    <i class="fa-solid fa-magnifying-glass"></i>
+            <!-- Campo para ingresar el título de la noticia -->
+            <input type="text" placeholder="Título de la noticia" class="title-input" required>
 
-                    <!-- Menú principal de navegación -->
-                    <nav>
-                        <ul>
-                            <li><a href="http://www.google.com">Últimas noticias</a></li>
-                            <li><a href="http://www.google.com">Politica</a></li>
-                            <li><a href="http://www.google.com">Sociedad</a></li>
-                            <li><a href="http://www.google.com">Economica</a></li>
-                            <li><a href="http://www.google.com">Tecnologia</a></li>
-                            <li><a href="http://www.google.com">Sports</a></li>
-                            <li><a href="http://www.google.com">Tendencias</a></li>
-                            <li><a href="http://www.google.com">Cultura</a></li>
-                            <li><a href="http://www.google.com">¿Qué puedo ver?</a></li>
-                        <ul> <!-- ⚠️ Falta cierre correcto </ul> -->
-                    </nav>
-                </div>
-
-                <!-- Logo del sitio -->
-                <div class="logo">
-                    <img src="img/logo.png" alt="Logo all news" />
-                </div>
-
-                <!-- Menú secundario con secciones -->
-                <div class="mid-buttons">
-                    <ul>
-                        <li><a href="#">AMÉRICA</a></li>
-                        <li><a href="#">COLOMBIA</a></li>
-                        <li><a href="#">MEXICO</a></li>
-                        <li><a href="#">QUÉ PUEDO VER</a></li>
-                        <li><a href="#">ECONÓMIA</a></li>
-                        <li><a href="#">TELESHOW</a></li>
-                        <li><a href="#">DEPORTES</a></li>
-                        <li><a href="#">CULTURA</a></li>
-                    </ul>
-                </div>
-
-                <!-- Fecha del día -->
-                <div class="today-date">
-                    <div class="line"></div>
-                    <div class="date">Lunes xx de junio de 20xx</div>
-                    <div class="line"></div>
-                </div>
-
-                <!-- Menú inferior con enlaces complementarios -->
-                <div class="lower-buttons">
-                    <ul>
-                        <li class="first-button"><a href="#">Últimas notcias</a></li>
-                        <li><a href="#">Confesiones</a></li>
-                        <li><a href="#">Salud</a></li>
-                        <li><a href="#">Tendencias</a></li>
-                        <li><a href="#">ESPN</a></li>
-                        <li><a href="#">newsletter</a></li>
-                    </ul>
-                </div>
+            <!-- Sección para cargar una imagen (drag and drop o selección manual) -->
+            <div class="dropzone" id="dropzone">
+                <p>Arrastra y suelta la imagen aquí o haz clic para seleccionar</p>
+                <input type="file" accept="image/*" id="imageUpload">
             </div>
-        </header>
 
-        <!-- Contenido principal -->
-        <main>
-            <section class="admin-news-form container">
-                <!-- Título de la sección de administración -->
-                <h1>AGREGAR NOTICIA</h1>
-                <p class="admin-subtitle">Crea y publica contenido para el portal de noticias</p>
-
-                <!-- Campo para ingresar el título de la noticia -->
-                <input type="text" placeholder="Título de la noticia" class="title-input" required>
-
-                <!-- Sección para cargar una imagen (drag and drop o selección manual) -->
-                <div class="dropzone" id="dropzone">
-                    <p>Arrastra y suelta la imagen aquí o haz clic para seleccionar</p>
-                    <input type="file" accept="image/*" id="imageUpload">
+            <!-- Editor de texto con botones de formato -->
+            <div class="text-editor">
+                <!-- Barra de herramientas del editor -->
+                <div class="toolbar">
+                    <button type="button" onclick="format('bold')"><b>B</b></button>
+                    <button type="button" onclick="format('italic')"><i>I</i></button>
+                    <button type="button" onclick="format('underline')"><u>U</u></button>
+                    <button type="button" onclick="format('insertUnorderedList')">• Lista</button>
                 </div>
 
-                <!-- Editor de texto con botones de formato -->
-                <div class="text-editor">
-                    <!-- Barra de herramientas del editor -->
-                    <div class="toolbar">
-                        <button type="button" onclick="format('bold')"><b>B</b></button>
-                        <button type="button" onclick="format('italic')"><i>I</i></button>
-                        <button type="button" onclick="format('underline')"><u>U</u></button>
-                        <button type="button" onclick="format('insertUnorderedList')">• Lista</button>
-                    </div>
-
-                    <!-- Área editable donde se escribe la noticia -->
-                    <div class="editor" contenteditable="true" id="editor">
-                        Escribe aquí el contenido de la noticia...
-                    </div>
-                </div>
-
-                <!-- Botón para publicar la noticia -->
-                <button class="btn-publicar">Publicar noticia</button>
-            </section>
-        </main>
-
-        <!-- Pie de página -->
-        <footer>
-            <div class="topbar">
-                <!-- Logo en el footer -->
-                <img src="img/logo.png" alt="cansado"/>
-                <!-- Redes sociales -->
-                <div class="rrss">
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fas fa-rss"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
+                <!-- Área editable donde se escribe la noticia -->
+                <div class="editor" contenteditable="true" id="editor">
+                    Escribe aquí el contenido de la noticia...
                 </div>
             </div>
 
-            <!-- Mapa del sitio en el footer -->
-            <div class="sitemap">
-                <div class="col">
-                    <ul>
-                        <li><span>all news</span></li>
-                        <li><a href="#">Colombia</a></li>
-                        <li><a href="#">America</a></li>
-                        <li><a href="#">Argentina</a></li>
-                        <li><a href="#">Mexico</a></li>
-                        <li><a href="#">Perú</a></li>
-                        <li><a href="#">RSS</a></li>
-                        <li><a href="#">Ultima noticias</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>
-                        <li><span>Contáctenos</span></li>
-                        <li><a href="#">Contacto</a></li>
-                        <li><a href="#">Redacción</a></li>
-                        <li><a href="#">Contacto comercial</a></li>
-                        <li><a href="#">Media Kit</a></li>
-                        <li><a href="#">Empleo</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>
-                        <li><span>Redes Sociales</span></li>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Instagram</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul>
-                        <li><span>Contáctenos</span></li>
-                        <li><a href="#">Términos y condiciones</a></li>
-                        <li><a href="#">Politicas de privacidad</a></li>
-                    </ul>
-                </div>
-            </div>
+            <!-- Botón para publicar la noticia -->
+            <button class="btn-publicar">Publicar noticia</button>
+            <!--<button class="btn-logout">Cerrar Sesión</button>-->
+            <!-- Botón para cerrar sesión -->
+            <button id="logout-button" class="btn-publicar">Cerrar Sesión</button>
 
-            <!-- Derechos de autor -->
-            <div class="copyright">
-                Todos los Derechos Reservados © all news 2023
-            </div>
-        </footer>
-    </body>
+
+        </section>
+    </main>
+      
+      
+
+    <!-- Footer se carga dinámicamente -->
+    <div id="footer"></div>
+
+    <!-- Script que carga los componentes comunes -->
+    <script src="../js/componentLoader.js"></script>
+    <!-- SweetAlert2 para modales bonitos -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Componentes generales -->
+    <script src="../js/componentLoader.js"></script>
+
+    <!-- Scripts específicos -->
+    <script src="../js/login.js"></script> <!-- SOLO en login.html -->
+    <script src="../js/register.js"></script> <!-- SOLO en registro.html -->
+    <script src="../js/validarSesion.js"></script> <!-- SOLO en admin.html -->
+    <script src="../js/logout.js"></script> <!-- SOLO en admin.html -->
+    <script src="../js/userSession.js"></script>
+
+
+
+  </body>
 </html>

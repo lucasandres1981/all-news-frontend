@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mexico - All News</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Header se carga dinámicamente -->
+    <div id="header"></div>
+
+    <!-- Contenido principal -->
+    <main class="container">
+        <div class="newsletter-box">
+          <h1>Suscríbete a nuestro Newsletter</h1>
+          <p>Recibe lo mejor de All News: últimas noticias, reportajes especiales y tendencias, directamente en tu correo.</p>
+      
+          <form class="form-newsletter" action="newsletter.php" method="POST">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <button type="submit">Suscribirme</button>
+          </form>
+      
+          <p class="privacy-note">
+            Al suscribirte, aceptas nuestra <a href="../categorias/Politicas_de_privacidad.html">Política de Privacidad</a>.
+          </p>
+        </div>
+      </main>
+      
+      
+      
+
+    <!-- Footer se carga dinámicamente -->
+    <div id="footer"></div>
+
+    <!-- Script que carga los componentes comunes -->
+    <script src="../js/componentLoader.js"></script>
+    <script src="../js/userSession.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contacto - All News</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://kit.fontawesome.com/a6b017570a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Header se carga dinámicamente -->
+    <div id="header"></div>
+
+    <!-- Contenido principal -->
+    <main>
+      <div class="container">
+        <div class="form-contacto-box">
+          <h1>Contacto Comercial</h1>
+          <p>¿Deseas publicitar, colaborar o establecer alianzas estratégicas? Completa el siguiente formulario y nuestro equipo se pondrá en contacto contigo.</p>
+    
+          <form class="form-contacto" action="contacto_comercial.php" method="POST">
+            <input type="text" name="empresa" placeholder="Nombre de la empresa o entidad" required>
+    
+            <input type="text" name="nombre_contacto" placeholder="Nombre de contacto" required>
+    
+            <input type="email" name="email_contacto" placeholder="Correo electrónico" required>
+    
+            <input type="tel" name="telefono" placeholder="Teléfono de contacto (opcional)">
+    
+            <input type="text" name="asunto" placeholder="Asunto (Publicidad, Alianza, Otro)" required>
+    
+            <textarea name="mensaje" rows="6" placeholder="Describe tu propuesta o consulta comercial..." required></textarea>
+    
+            <button type="submit">Enviar solicitud</button>
+          </form>
+    
+          <p style="font-size:12px; margin-top:10px;">Tus datos serán tratados conforme a nuestra <a href="Politicas_de_privacidad.html">Política de Privacidad</a>.</p>
+        </div>
+      </div>
+    </main>
+    
+      
+      
+
+    <!-- Footer se carga dinámicamente -->
+    <div id="footer"></div>
+
+    <!-- Script que carga los componentes comunes -->
+    <script src="../js/componentLoader.js"></script>
+
+    <!-- Script que contiene la función cargarNoticiasPorCategoria -->
+    <script src="../js/noticias.js"></script>
+    
+    <!-- Script que contiene la función cargarSidebarPorCategoria -->
+    <!--<script src="../js/sidebar.js"></script>-->
+    <script src="../js/userSession.js"></script>
+
+
+
+    <!-- Llamada a la función después de haberla definido -->
+    <!--<script>
+      //cargarNoticiasPorCategoria("america");
+      //cargarSidebarPorCategoria("america");   
+    </script>-->
+  </body>
+</html>
