@@ -834,3 +834,32 @@ footer .copyright{
   font-size: 14px;
   color: #666;
 }
+
+/* Estilo del usuario en el header */
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+.user-info span {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#logout-btn {
+  background-color: darkorange;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.3s;
+}
+
+#logout-btn:hover {
+  background-color: #2980b9;
+}

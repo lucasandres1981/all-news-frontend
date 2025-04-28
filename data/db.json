@@ -1,6 +1,7 @@
 {
   "usuarios": [
     {
+      "id": "1",
       "email": "admin@allnews.com",
       "nombre": "Administrador",
       "apellido": "All News",
@@ -8,9 +9,10 @@
       "genero": "Masculino",
       "fechaNacimiento": "1990-01-01",
       "password": "admin123",
-      "id": "30aa"
+      "rol": "admin"
     },
     {
+      "id": "2",
       "email": "usuario1@correo.com",
       "nombre": "Usuario",
       "apellido": "Uno",
@@ -18,187 +20,28 @@
       "genero": "Femenino",
       "fechaNacimiento": "1995-05-05",
       "password": "user123",
-      "id": "0dbf"
+      "rol": "usuario"
     },
     {
-      "id": "3853",
+      "id": "3",
       "email": "lucasandres1981@hotmail.com",
       "nombre": "Lucas",
       "apellido": "Murillo Arcila",
       "pais": "Colombia",
       "genero": "masculino",
       "fechaNacimiento": "2025-04-23",
-      "password": "1234"
-    },
+      "password": "1234",
+      "rol": "admin"
+    }
+  ],
+  "noticias": [
     {
-      "id": "d4c3",
-      "email": "1981.lucas.andres@gmail.com",
-      "nombre": "Lucas Andres",
-      "apellido": "Arcila",
-      "pais": "Colombia",
-      "genero": "masculino",
-      "fechaNacimiento": "2025-04-23",
-      "password": "1234"
-    },
-    {
-      "id": "4008",
-      "email": "lucasandres1981@hotmail.com",
-      "nombre": "Lucas",
-      "apellido": "Arcila",
-      "pais": "Colombia",
-      "genero": "masculino",
-      "fechaNacimiento": "2025-04-16",
-      "password": "1234"
-    },
-    {
-      "id": "8de1",
-      "email": "user123@email.com",
-      "nombre": "usuario1",
-      "apellido": "user1",
-      "pais": "Colombia",
-      "genero": "masculino",
-      "fechaNacimiento": "2025-04-09",
-      "password": "1234"
-    },
-    {
-      "id": "75fb",
-      "email": "lucasandres1981@hotmail.com",
-      "nombre": "Lucas",
-      "apellido": "Arcila",
-      "pais": "Colombia",
-      "genero": "masculino",
-      "fechaNacimiento": "2025-04-17",
-      "password": "1234"
-    },
-    {
-      "id": "63d1",
-      "email": "lucasandres1981@hotmail.com",
-      "nombre": "Lucas",
-      "apellido": "Arcila",
-      "pais": "Colombia",
-      "genero": "masculino",
-      "fechaNacimiento": "2025-04-03",
-      "password": "1234"
-    },
-    {
-      "id": "8b47",
-      "email": "user2@email.com",
-      "nombre": "user2",
-      "apellido": "user2",
-      "pais": "colo",
-      "genero": "masculino",
-      "fechaNacimiento": "2025-12-30",
-      "password": "1234"
-    },
-    {
-      "id": "cefa",
-      "email": "user4@email.com",
-      "nombre": "user4",
-      "apellido": "user4",
-      "pais": "colombia",
-      "genero": "femenino",
-      "fechaNacimiento": "1981-02-25",
-      "password": "1234"
-    },
-    {
-      "id": "af72",
-      "email": "user5@email.com",
-      "nombre": "user5",
-      "apellido": "user5",
-      "pais": "colombia",
-      "genero": "masculino",
-      "fechaNacimiento": "0002-02-15",
-      "password": "1234"
-    },
-    {
-      "id": "482b",
-      "email": "user6@email.com",
-      "nombre": "user6",
-      "apellido": "user6",
-      "pais": "Colombia",
-      "genero": "masculino",
-      "fechaNacimiento": "2025-04-04",
-      "password": "1234"
-    },
-    {
-      "id": "2dad",
-      "email": "user7@gmail.co",
-      "nombre": "user7",
-      "apellido": "user7",
-      "pais": "colombia",
-      "genero": "masculino",
-      "fechaNacimiento": "2025-04-16",
-      "password": "1234"
-    },
-    {
-      "id": "52c8",
-      "email": "user8@email.com",
-      "nombre": "user8",
-      "apellido": "user8",
-      "pais": "colombia",
-      "genero": "femenino",
-      "fechaNacimiento": "2025-04-14",
-      "password": "1234"
-    },
-    {
-      "id": "aac9",
-      "email": "user9@email.com",
-      "nombre": "user9",
-      "apellido": "user9",
-      "pais": "col",
-      "genero": "masculino",
-      "fechaNacimiento": "2025-04-10",
-      "password": "1234"
-    },
-    {
-      "id": "b084",
-      "email": "lucasandres1981@hotmail.com",
-      "nombre": "Lucas",
-      "apellido": "Arcila",
-      "pais": "Colombia",
-      "genero": "masculino",
-      "fechaNacimiento": "2025-04-09",
-      "password": "1234"
-    },
-    {
-      "id": "10af",
-      "email": "lucasandres1981@hotmail.com",
-      "nombre": "Lucas",
-      "apellido": "Arcila",
-      "pais": "Colombia",
-      "genero": "masculino",
-      "fechaNacimiento": "2025-04-09",
-      "password": "1234"
-    },
-    {
-      "id": "2219",
-      "email": "lucasandres1981@hotmail.com",
-      "nombre": "Lucas",
-      "apellido": "Arcila",
-      "pais": "Colombia",
-      "genero": "masculino",
-      "fechaNacimiento": "2025-04-02",
-      "password": "1234"
-    },
-    {
-      "id": "07f3",
-      "email": "lucasandres1981@hotmail.com",
-      "nombre": "Lucas",
-      "apellido": "Arcila",
-      "pais": "Colombia",
-      "genero": "femenino",
-      "fechaNacimiento": "2025-04-11",
-      "password": "1234"
-    },
-    {
-      "id": "71a8",
-      "email": "lucasandres1981@hotmail.com",
-      "nombre": "Lucas",
-      "apellido": "Arcila",
-      "pais": "Colombia",
-      "genero": "masculino",
-      "fechaNacimiento": "2025-04-08",
-      "password": "1234"
+      "id": "08cc",
+      "titulo": "Moda en Milán",
+      "contenido": "<h3 style=\"margin: 15px 0px; padding: 0px; font-size: 14px; font-family: &quot;Open Sans&quot;, Arial, sans-serif;\">Traducci�n hecha por H. Rackham en 1914</h3><p style=\"margin: 0px 0px 15px; padding: 0px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px;\">\"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?\"</p><h3 style=\"margin: 15px 0px; padding: 0px; font-size: 14px; font-family: &quot;Open Sans&quot;, Arial, sans-serif;\">Sección 1.10.33 de \"de Finibus Bonorum et Malorum\", escrito por Cicero en el 45 antes de Cristo</h3><p style=\"margin: 0px 0px 15px; padding: 0px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px;\">\"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.\"</p><h3 style=\"margin: 15px 0px; padding: 0px; font-size: 14px; font-family: &quot;Open Sans&quot;, Arial, sans-serif;\">Traducci�n hecha por H. Rackham en 1914</h3><p style=\"margin: 0px 0px 15px; padding: 0px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px;\">\"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.\"</p>",
+      "imagen": "0_0 (13).webp",
+      "fecha": "2025-04-28",
+      "autor": "lucasandres1981@hotmail.com"
     }
   ]
 }
